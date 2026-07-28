@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Vegan Aisle</title>
+</head>
+<body>
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f5f3ee; --surface: #fcfbf8;
+    --ink: #1a1a1a; --ink-2: #46433c; --ink-3: #79746a;
+    --grid: #e3e0d6; --hairline: #c9c5ba; --frame: #1a1a1a;
+    --navy: #1f3a5f;
+    --c-dairy: #3567a8; --c-meat: #c05b2e; --c-sea: #1f8a6e; --c-eggs: #6d5a9c;
+    --serif: "Palatino Nova", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--page); color: var(--ink); font: 13px/1.4 var(--serif); padding: 24px 24px 48px; }
+  .wrap { max-width: 1180px; margin: 0 auto; }
+  h1 { font-family: var(--serif); font-size: 21px; font-weight: 600; letter-spacing: 0.01em; padding-bottom: 8px; border-bottom: 2px solid var(--frame); }
+  .flow { display: flex; flex-wrap: wrap; gap: 10px; align-items: stretch; margin: 26px 0 8px; }
+  .flow .fbox { background: var(--surface); border: 1px solid var(--frame); padding: 12px 22px; text-align: center; min-width: 108px; }
+  .flow .fbox b { display: block; font-size: 26px; font-weight: 600; font-family: var(--serif); color: var(--navy); font-variant-numeric: tabular-nums; }
+  .flow .fbox span { display: block; font-family: var(--sans); font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-3); }
+  .flow .farrow { align-self: center; color: var(--ink); font-size: 18px; padding: 0 2px; }
+  section { margin-top: 48px; }
+  h2 { font-family: var(--sans); font-size: 12px; font-weight: 400; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-3); display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+  h2::after { content: ""; flex: 1; border-top: 1px solid var(--hairline); }
+  .lede { color: var(--ink-2); margin: 8px 0 14px; max-width: 880px; font-size: 12.5px; }
+  .takeaway { font-size: 12px; color: var(--ink-2); margin-top: 12px; border-top: 1px solid var(--grid); padding-top: 8px; }
+  .takeaway b { color: var(--ink); }
+  .card { background: var(--surface); border: 1px solid var(--frame); padding: 24px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+  .tile .mname { display: flex; align-items: center; gap: 8px; font-family: var(--sans); font-size: 9.5px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2); }
+  .dot { width: 10px; height: 10px; flex: none; }
+  .tile .big { font-family: var(--serif); font-size: 26px; font-weight: 600; color: var(--navy); margin: 6px 0 2px; }
+  .tile .cap { font-family: var(--sans); font-size: 9px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+  .tile .rows { margin-top: 12px; font-size: 12px; color: var(--ink-2); display: grid; gap: 4px; }
+  .tile .rows b { color: var(--ink); font-weight: 700; }
+  .tile .subs { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 4px; }
+  .tile .subs span { font-family: var(--sans); font-size: 9px; letter-spacing: 0.04em; text-transform: uppercase; border: 1px solid var(--hairline); padding: 1px 7px; color: var(--ink-3); white-space: nowrap; }
+  .legend { display: flex; flex-wrap: wrap; gap: 16px; font-family: var(--sans); font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-2); margin-top: 16px; }
+  .legend .li { display: flex; align-items: center; gap: 7px; }
+  .sw { width: 11px; height: 11px; flex: none; }
+  /* bars */
+  .brow { margin-top: 14px; }
+  .brow .blab { font-size: 12.5px; display: flex; justify-content: space-between; gap: 12px; margin-bottom: 5px; }
+  .brow .blab .n { color: var(--navy); font-weight: 700; font-variant-numeric: tabular-nums; }
+  .brow .btrack { display: flex; gap: 2px; height: 15px; }
+  .brow .btrack i { height: 100%; }
+  .brow .bwhy { font-size: 11px; color: var(--ink-3); margin-top: 4px; font-style: italic; }
+  /* worth trying */
+  .try-row { display: grid; grid-template-columns: 26px 1fr 220px; gap: 12px; align-items: center; padding: 9px 0; border-bottom: 1px solid var(--grid); }
+  .try-row:last-child { border-bottom: none; }
+  .try-rank { font-family: var(--serif); font-size: 14px; font-weight: 600; color: var(--ink-3); text-align: right; font-variant-numeric: tabular-nums; }
+  .try-name { font-size: 12.5px; }
+  .try-name b { font-weight: 700; }
+  .try-name .why { display: block; font-size: 11px; color: var(--ink-3); font-style: italic; margin-top: 1px; }
+  .try-bar { display: flex; align-items: center; gap: 8px; }
+  .try-bar .track { flex: 1; height: 11px; background: var(--page); border: 1px solid var(--grid); position: relative; }
+  .try-bar .track i { position: absolute; inset: 0; right: auto; }
+  .try-bar .num { font-family: var(--sans); font-size: 10.5px; font-weight: 700; color: var(--ink); width: 30px; text-align: right; font-variant-numeric: tabular-nums; }
+  .fame { display: inline-block; font-family: var(--sans); font-size: 8.5px; letter-spacing: 0.08em; text-transform: uppercase; border: 1px solid var(--hairline); padding: 1px 6px; color: var(--ink-2); margin-left: 6px; vertical-align: 1px; white-space: nowrap; }
+  /* explorer */
+  .filters { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0; }
+  .filters select { background: var(--surface); color: var(--ink); border: 1px solid var(--frame); border-radius: 0; padding: 5px 8px; font-family: var(--sans); font-size: 11px; max-width: 240px; }
+  table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  thead th { text-align: left; font-family: var(--sans); font-weight: 600; color: var(--ink-2); font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase; padding: 10px; border-bottom: 2px solid var(--frame); position: sticky; top: 0; background: var(--surface); }
+  tbody td { padding: 10px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+  tbody tr.main { cursor: pointer; }
+  tbody tr.main:hover { background: #f1eee6; }
+  .catchip { display: inline-flex; align-items: center; gap: 6px; font-family: var(--sans); font-size: 9px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-2); white-space: nowrap; }
+  .pill { display: inline-block; font-family: var(--sans); font-size: 9px; letter-spacing: 0.06em; text-transform: uppercase; border: 1px solid var(--hairline); padding: 2px 8px; color: var(--ink-2); white-space: nowrap; margin: 1px 2px 1px 0; }
+  tr.detail td { background: #f3f1ea; font-size: 11.5px; color: var(--ink-2); }
+  tr.detail b { color: var(--ink); }
+  .tcount { font-size: 11px; color: var(--ink-3); margin: 10px 0; font-style: italic; }
+  .showmore { margin-top: 12px; background: var(--surface); border: 1px solid var(--frame); color: var(--ink); padding: 6px 14px; font-family: var(--sans); font-size: 11px; cursor: pointer; }
+  .showmore:hover { background: #f1eee6; }
+  .showmore:focus-visible, .filters select:focus-visible { outline: 2px solid var(--navy); outline-offset: 1px; }
+  /* my tracker */
+  .trk { display: flex; gap: 4px; }
+  .trk button { font-family: var(--sans); font-size: 9px; letter-spacing: 0.05em; text-transform: uppercase; border: 1px solid var(--hairline); background: var(--surface); color: var(--ink-3); padding: 3px 7px; cursor: pointer; white-space: nowrap; }
+  .trk button:hover { border-color: var(--ink-2); color: var(--ink-2); }
+  .trk button.on-want { background: var(--navy); border-color: var(--navy); color: #fff; }
+  .trk button.on-tried { background: #3d7a4e; border-color: #3d7a4e; color: #fff; }
+  .trk button:focus-visible { outline: 2px solid var(--navy); outline-offset: 1px; }
+  .stars { display: inline-flex; gap: 1px; }
+  .stars button { border: none; background: none; padding: 0 1px; cursor: pointer; font-size: 14px; line-height: 1; color: var(--hairline); font-family: var(--serif); }
+  .stars button.lit { color: #96802b; }
+  .stars button:focus-visible { outline: 2px solid var(--navy); outline-offset: 1px; }
+  .rate-cell { white-space: nowrap; }
+  .rate-cell b { font-family: var(--sans); font-size: 11.5px; }
+  .rate-cell .src { display: block; font-size: 10px; color: var(--ink-3); font-style: italic; margin-top: 1px; white-space: normal; }
+  .subtag { display: block; font-family: var(--sans); font-size: 9px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-3); margin-top: 3px; margin-left: 16px; }
+  /* tooltip */
+  #tip { position: fixed; pointer-events: none; background: var(--surface); border: 1px solid var(--frame); box-shadow: 3px 3px 0 rgba(26,26,26,0.12); padding: 8px 10px; font-size: 11px; max-width: 320px; z-index: 10; display: none; color: var(--ink-2); }
+  #tip b { color: var(--ink); }
+  footer { margin-top: 40px; font-size: 11px; color: var(--ink-3); border-top: 2px solid var(--frame); padding-top: 18px; max-width: 880px; }
+  footer p { margin-bottom: 8px; }
+  @media (max-width: 700px) { .try-row { grid-template-columns: 22px 1fr; } .try-bar { grid-column: 2; } }
+</style>
+
+<div class="wrap">
+
+  <h1>The Vegan Aisle</h1>
+
+  <section>
+    <h2>I. The aisle at a glance</h2>
+    <div class="cards" id="kpis"></div>
+  </section>
+
+  <section>
+    <h2>II. Browse and track</h2>
+    <p class="lede">Every product, best-rated first. Mark what you want to try and what you've tried, and add your own stars once you have. Click a row for details.</p>
+    <div class="filters">
+      <select id="f-cat" aria-label="Filter by category"></select>
+      <select id="f-sub" aria-label="Filter by subcategory"></select>
+      <select id="f-brand" aria-label="Filter by brand"></select>
+      <select id="f-mine" aria-label="Filter by my list">
+        <option value="">My list: all</option>
+        <option value="want">Want to try</option>
+        <option value="tried">Tried</option>
+        <option value="untried">Not tried yet</option>
+      </select>
+    </div>
+    <div class="card" style="padding:0 0 14px; overflow-x:auto">
+      <table>
+        <thead><tr>
+          <th style="width:150px">Category</th>
+          <th style="width:140px">Brand</th>
+          <th>Product</th>
+          <th style="width:130px">Rating</th>
+          <th style="width:118px">My list</th>
+          <th style="width:98px">My stars</th>
+        </tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+      <p class="tcount" id="tcount" style="padding:0 14px"></p>
+      <button class="showmore" id="showmore" style="margin-left:14px">Show 50 more</button>
+    </div>
+  </section>
+
+  <section>
+    <h2>III. Worth trying</h2>
+    <p class="lede">The best-reviewed products across the whole aisle, ranked by rating. <span class="fame">Well known</span> marks the famous ones.</p>
+    <div class="card" id="worth"></div>
+  </section>
+
+  <section>
+    <h2>IV. Who makes what</h2>
+    <p class="lede">Brands ranked by how many products they put on the shelf, split by category.</p>
+    <div class="card">
+      <div id="brands"></div>
+      <div class="legend" id="brand-legend"></div>
+      <p class="takeaway" id="tk-brands"></p>
+    </div>
+  </section>
+
+  <footer>
+    <p><b>Ratings</b> come from retailer reviews, Sporked scores, and editorial taste tests gathered in July 2026; the source is shown under each rating. Products with no published rating sort last.</p>
+    <p><b>Your list and stars</b> are saved in this browser only.</p>
+  </footer>
+</div>
+<div id="tip"></div>
+
+<script>
+fetch('data/products.json').then(r => r.json()).then(main);
+function main(DATA) {
+
+const CATS = ['dairy','meat','eggs'];
+const CNAME = {'dairy':'Dairy','meat':'Meat','eggs':'Eggs'};
+const CCOLOR = {'dairy':'var(--c-dairy)','meat':'var(--c-meat)','eggs':'var(--c-sea)'};
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const title = s => String(s).replace(/\b\w/g, c => c.toUpperCase());
+
+const P = DATA.products.map(p => ({...p, id: p.brand + '|' + p.product}));
+const brands = [...new Set(P.map(p => p.brand))].sort();
+const SUBS = {};
+CATS.forEach(c => SUBS[c] = [...new Set(P.filter(p => p.cat === c).map(p => p.sub))].sort());
+const allSubs = CATS.flatMap(c => SUBS[c]);
+
+/* my tracker, saved locally */
+const LSKEY = 'vegan-tracker-v1';
+let mine = {};
+try { mine = JSON.parse(localStorage.getItem(LSKEY)) || {}; } catch (e) { mine = {}; }
+function persist() { try { localStorage.setItem(LSKEY, JSON.stringify(mine)); } catch (e) {} }
+function entry(id) { return mine[id] || {}; }
+function setStatus(id, status) {
+  const e = entry(id);
+  mine[id] = {...e, status: e.status === status ? null : status};
+  persist(); render();
+}
+function setStars(id, n) {
+  const e = entry(id);
+  mine[id] = {...e, stars: e.stars === n ? null : n};
+  persist(); render();
+}
+
+/* KPI tiles */
+$('kpis').innerHTML = CATS.map(c => {
+  const rows = P.filter(p => p.cat === c);
+  const nb = new Set(rows.map(r => r.brand)).size;
+  const best = rows.filter(r => r.rating != null).sort((a,b) => b.rating - a.rating)[0];
+  return `<div class="card tile">
+    <div class="mname"><i class="dot" style="background:${CCOLOR[c]}"></i>${CNAME[c]}</div>
+    <div class="big">${rows.length}</div>
+    <div class="cap">products · ${nb} brands</div>
+    <div class="rows">
+      ${best ? `<span>Top rated: <b>${esc(best.brand)} ${esc(best.product)}</b> · <span style="white-space:nowrap">★ ${best.rating.toFixed(1)}</span></span>` : '<span>No ratings found yet</span>'}
+    </div>
+    <div class="subs">${SUBS[c].map(s => `<span>${esc(s)}</span>`).join('')}</div>
+    </div>`;
+}).join('');
+
+/* brand bars, stacked by category */
+const brandCount = {};
+P.forEach(p => {
+  brandCount[p.brand] = brandCount[p.brand] || {total:0};
+  brandCount[p.brand].total++;
+  brandCount[p.brand][p.cat] = (brandCount[p.brand][p.cat]||0)+1;
+});
+const topBrands = Object.entries(brandCount).sort((a,b)=>b[1].total-a[1].total).slice(0,20);
+const maxBrand = topBrands[0][1].total;
+$('brands').innerHTML = topBrands.map(([b, k]) => {
+  const segs = CATS.filter(c => k[c]).map(c =>
+    `<i style="background:${CCOLOR[c]};flex:0 0 ${(k[c]/maxBrand*100)}%" data-tip="<b>${esc(b)}</b><br>${k[c]} ${CNAME[c].toLowerCase()} product${k[c]>1?'s':''} of ${k.total} total"></i>`).join('');
+  const subs = [...new Set(P.filter(p => p.brand === b).map(p => p.sub))];
+  return `<div class="brow">
+    <div class="blab"><span>${esc(b)}</span><span class="n">${k.total}</span></div>
+    <div class="btrack">${segs}</div>
+    <div class="bwhy">${subs.length === 1 ? `specialist — ${esc(subs[0])}` : `${subs.length} subcategories: ${esc(subs.slice(0,5).join(', '))}${subs.length > 5 ? '…' : ''}`}</div>
+  </div>`;
+}).join('');
+$('brand-legend').innerHTML = CATS.map(c => `<span class="li"><i class="sw" style="background:${CCOLOR[c]}"></i> ${CNAME[c]}</span>`).join('');
+const multi = topBrands.filter(([,k]) => CATS.filter(c=>k[c]).length >= 2);
+$('tk-brands').innerHTML = `<b>${topBrands[0][0]}</b> puts the most products on the shelf (${topBrands[0][1].total}). ${multi.length} of the top ${topBrands.length} brands cross category lines; the rest stay in their lane.`;
+
+/* worth trying: top-rated across the aisle */
+const rated = P.filter(p => p.rating != null).sort((a,b) => b.rating - a.rating || (b.famous?1:0)-(a.famous?1:0));
+$('worth').innerHTML = rated.slice(0, 20).map((p, i) => `
+  <div class="try-row">
+    <div class="try-rank">${i+1}</div>
+    <div class="try-name">
+      <span class="catchip"><i class="dot" style="background:${CCOLOR[p.cat]}"></i></span>
+      <b>${esc(p.brand)}</b> ${esc(p.product)}${p.famous ? '<span class="fame">Well known</span>' : ''}
+      <span class="why">${esc(title(p.sub))}${p.buzz ? ' — ' + esc(p.buzz) : ''}</span>
+    </div>
+    <div class="try-bar">
+      <div class="track"><i style="width:${p.rating/5*100}%;background:${CCOLOR[p.cat]}" data-tip="<b>${esc(p.brand)} ${esc(p.product)}</b><br>★ ${p.rating.toFixed(1)} — ${esc(p.rating_source ?? '')}"></i></div>
+      <span class="num">${p.rating.toFixed(1)}</span>
+    </div>
+  </div>`).join('');
+
+/* explorer + tracker */
+const selCat = $('f-cat'), selSub = $('f-sub'), selBrand = $('f-brand'), selMine = $('f-mine');
+function fill(sel, label, values) {
+  sel.innerHTML = `<option value="">${label}: all</option>` + values.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join('');
+}
+fill(selCat, 'Category', CATS.map(c => CNAME[c]));
+fill(selSub, 'Subcategory', allSubs.map(title));
+fill(selBrand, 'Brand', brands);
+selCat.addEventListener('change', () => {
+  const c = CATS.find(x => CNAME[x] === selCat.value);
+  fill(selSub, 'Subcategory', (c ? SUBS[c] : allSubs).map(title));
+});
+
+let shown = 50;
+function render() {
+  const fc = selCat.value, fs = selSub.value, fb = selBrand.value, fm = selMine.value;
+  const rows = P.filter(p => {
+    const e = entry(p.id);
+    if (fm === 'want' && e.status !== 'want') return false;
+    if (fm === 'tried' && e.status !== 'tried') return false;
+    if (fm === 'untried' && e.status === 'tried') return false;
+    return (!fc || CNAME[p.cat] === fc) && (!fs || title(p.sub) === fs) && (!fb || p.brand === fb);
+  });
+  rows.sort((a,b) => (b.rating ?? -1) - (a.rating ?? -1) || a.brand.localeCompare(b.brand));
+  $('tbody').innerHTML = rows.slice(0, shown).map(p => {
+    const e = entry(p.id);
+    const stars = [1,2,3,4,5].map(n =>
+      `<button data-star="${n}" data-id="${esc(p.id)}" class="${e.stars >= n ? 'lit' : ''}" aria-label="Rate ${n} of 5">★</button>`).join('');
+    return `
+    <tr class="main">
+      <td><span class="catchip"><i class="dot" style="background:${CCOLOR[p.cat]}"></i>${CNAME[p.cat]}</span><span class="subtag">${esc(p.sub)}</span></td>
+      <td>${esc(p.brand)}</td>
+      <td>${esc(p.product)}${p.famous ? '<span class="fame">Well known</span>' : ''}</td>
+      <td class="rate-cell">${p.rating != null ? `<b>★ ${p.rating.toFixed(1)}</b><span class="src">${esc(p.rating_source ?? '')}</span>` : '<span style="color:var(--ink-3)">·</span>'}</td>
+      <td><span class="trk">
+        <button data-act="want" data-id="${esc(p.id)}" class="${e.status==='want' ? 'on-want' : ''}">Want</button>
+        <button data-act="tried" data-id="${esc(p.id)}" class="${e.status==='tried' ? 'on-tried' : ''}">Tried</button>
+      </span></td>
+      <td><span class="stars">${stars}</span></td>
+    </tr>
+    <tr class="detail" style="display:none"><td colspan="6">
+      <b>${esc(p.brand)} — ${esc(p.product)}</b> · ${esc(p.sub)}${p.type ? ` · ${esc(p.type)}` : ''}${p.flavor ? ` · ${esc(p.flavor)}` : ''}<br>
+      ${(p.attributes||[]).map(a => `<span class="pill">${esc(a)}</span>`).join('')}
+      ${p.buzz ? `<div style="margin-top:6px">${esc(p.buzz)}</div>` : ''}
+      ${p.notes ? `<div style="margin-top:6px">${esc(p.notes)}</div>` : ''}
+    </td></tr>`;
+  }).join('');
+  const nWant = P.filter(p => entry(p.id).status === 'want').length;
+  const nTried = P.filter(p => entry(p.id).status === 'tried').length;
+  $('tcount').textContent = `Showing ${Math.min(shown, rows.length)} of ${rows.length} products. Your list: ${nWant} to try, ${nTried} tried.`;
+  $('showmore').style.display = rows.length > shown ? '' : 'none';
+}
+[selCat, selSub, selBrand, selMine].forEach(s => s.addEventListener('change', () => { shown = 50; render(); }));
+$('showmore').addEventListener('click', () => { shown += 50; render(); });
+$('tbody').addEventListener('click', e => {
+  const btn = e.target.closest('button');
+  if (btn) {
+    if (btn.dataset.act) setStatus(btn.dataset.id, btn.dataset.act);
+    else if (btn.dataset.star) setStars(btn.dataset.id, +btn.dataset.star);
+    return;
+  }
+  const tr = e.target.closest('tr.main');
+  if (tr) {
+    const d = tr.nextElementSibling;
+    d.style.display = d.style.display === 'none' ? '' : 'none';
+  }
+});
+render();
+
+/* tooltip */
+const tip = $('tip');
+document.addEventListener('mousemove', e => {
+  const t = e.target.closest('[data-tip]');
+  if (!t) { tip.style.display = 'none'; return; }
+  tip.innerHTML = t.dataset.tip;
+  tip.style.display = 'block';
+  const x = Math.min(e.clientX + 14, window.innerWidth - 340);
+  const y = Math.min(e.clientY + 14, window.innerHeight - 80);
+  tip.style.left = x + 'px'; tip.style.top = y + 'px';
+});
+}
+</script>
+
+</body>
+</html>

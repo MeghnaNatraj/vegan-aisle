@@ -114,7 +114,6 @@
 
   <section>
     <h2>II. Browse and track</h2>
-    <p class="lede">Every product, sorted by the same review-count-weighted score. Mark what you want to try and what you've tried, and add your own stars once you have. Click a row for details.</p>
     <div class="filters">
       <select id="f-cat" aria-label="Filter by category"></select>
       <select id="f-sub" aria-label="Filter by subcategory"></select>
@@ -151,6 +150,7 @@
 
   <section>
     <h2>IV. Who makes what</h2>
+    <p class="lede">Brands ranked best to try first: each brand scored by the average review-weighted rating of its products. Brands with no published ratings sit at the bottom.</p>
     <div class="card">
       <div id="brands"></div>
       <div class="legend" id="brand-legend"></div>
@@ -201,8 +201,8 @@ $('kpis').innerHTML = CATS.map(c => {
   const best = rows.filter(r => r.rating != null).sort((a,b) => b.rating - a.rating)[0];
   return `<div class="card tile">
     <div class="mname"><i class="dot" style="background:${CCOLOR[c]}"></i>${CNAME[c]}</div>
-    <div class="big">${rows.length}</div>
-    <div class="cap">products · ${nb} brands</div>
+    <div class="big">${nb}</div>
+    <div class="cap">brands · ${rows.length} products</div>
     <div class="rows">
       ${best ? `<span>Top rated: <b>${esc(best.brand)} ${esc(best.product)}</b> · <span style="white-space:nowrap">★ ${best.rating.toFixed(1)}</span></span>` : '<span>No ratings found yet</span>'}
     </div>
@@ -217,16 +217,23 @@ P.forEach(p => {
   brandCount[p.brand].total++;
   brandCount[p.brand][p.cat] = (brandCount[p.brand][p.cat]||0)+1;
 });
-const topBrands = Object.entries(brandCount).sort((a,b)=>b[1].total-a[1].total).slice(0,20);
-const maxBrand = topBrands[0][1].total;
+const brandScore = {};
+Object.keys(brandCount).forEach(b => {
+  const rs = P.filter(p => p.brand === b && p.adj != null).map(p => p.adj);
+  brandScore[b] = rs.length ? rs.reduce((a,x) => a+x, 0) / rs.length : null;
+});
+const topBrands = Object.entries(brandCount).sort((a,b) =>
+  (brandScore[b[0]] ?? -1) - (brandScore[a[0]] ?? -1) || b[1].total - a[1].total);
+const maxBrand = Math.max(...topBrands.map(e => e[1].total));
 $('brands').innerHTML = topBrands.map(([b, k]) => {
   const segs = CATS.filter(c => k[c]).map(c =>
     `<i style="background:${CCOLOR[c]};flex:0 0 ${(k[c]/maxBrand*100)}%" data-tip="<b>${esc(b)}</b><br>${k[c]} ${CNAME[c].toLowerCase()} product${k[c]>1?'s':''} of ${k.total} total"></i>`).join('');
   const subs = [...new Set(P.filter(p => p.brand === b).map(p => p.sub))];
+  const sc = brandScore[b];
   return `<div class="brow">
-    <div class="blab"><span>${esc(b)}</span><span class="n">${k.total}</span></div>
+    <div class="blab"><span>${esc(b)}</span><span class="n">${sc != null ? '★ ' + sc.toFixed(2) : '·'}</span></div>
     <div class="btrack">${segs}</div>
-    <div class="bwhy">${esc(subs.join(', '))}</div>
+    <div class="bwhy">${k.total} product${k.total>1?'s':''} · ${esc(subs.join(', '))}${sc == null ? ' · no published ratings' : ''}</div>
   </div>`;
 }).join('');
 $('brand-legend').innerHTML = CATS.map(c => `<span class="li"><i class="sw" style="background:${CCOLOR[c]}"></i> ${CNAME[c]}</span>`).join('');

@@ -232,7 +232,7 @@ $('brands').innerHTML = topBrands.map(([b, k]) => {
   return `<div class="brow">
     <div class="blab"><span>${esc(b)}</span><span class="n">${k.total}</span></div>
     <div class="btrack">${segs}</div>
-    <div class="bwhy">${subs.length === 1 ? `specialist — ${esc(subs[0])}` : `${subs.length} subcategories: ${esc(subs.slice(0,5).join(', '))}${subs.length > 5 ? '…' : ''}`}</div>
+    <div class="bwhy">${subs.length === 1 ? `specialist · ${esc(subs[0])}` : `${subs.length} subcategories: ${esc(subs.slice(0,5).join(', '))}${subs.length > 5 ? '…' : ''}`}</div>
   </div>`;
 }).join('');
 $('brand-legend').innerHTML = CATS.map(c => `<span class="li"><i class="sw" style="background:${CCOLOR[c]}"></i> ${CNAME[c]}</span>`).join('');
@@ -247,10 +247,10 @@ $('worth').innerHTML = rated.slice(0, 20).map((p, i) => `
     <div class="try-name">
       <span class="catchip"><i class="dot" style="background:${CCOLOR[p.cat]}"></i></span>
       <b>${esc(p.brand)}</b> ${esc(p.product)}${p.famous ? '<span class="fame">Well known</span>' : ''}
-      <span class="why">${esc(title(p.sub))}${p.buzz ? ' — ' + esc(p.buzz) : ''}</span>
+      <span class="why">${esc(title(p.sub))}${p.buzz ? ' · ' + esc(p.buzz) : ''}</span>
     </div>
     <div class="try-bar">
-      <div class="track"><i style="width:${p.rating/5*100}%;background:${CCOLOR[p.cat]}" data-tip="<b>${esc(p.brand)} ${esc(p.product)}</b><br>★ ${p.rating.toFixed(1)} — ${esc(p.rating_source ?? '')}"></i></div>
+      <div class="track"><i style="width:${p.rating/5*100}%;background:${CCOLOR[p.cat]}" data-tip="<b>${esc(p.brand)} ${esc(p.product)}</b><br>★ ${p.rating.toFixed(1)} · ${esc(p.rating_source ?? '')}"></i></div>
       <span class="num">${p.rating.toFixed(1)}</span>
     </div>
   </div>`).join('');
@@ -296,7 +296,7 @@ function render() {
       <td><span class="stars">${stars}</span></td>
     </tr>
     <tr class="detail" style="display:none"><td colspan="6">
-      <b>${esc(p.brand)} — ${esc(p.product)}</b> · ${esc(p.sub)}${p.type ? ` · ${esc(p.type)}` : ''}${p.flavor ? ` · ${esc(p.flavor)}` : ''}<br>
+      <b>${esc(p.brand)} · ${esc(p.product)}</b> · ${esc(p.sub)}${p.type ? ` · ${esc(p.type)}` : ''}${p.flavor ? ` · ${esc(p.flavor)}` : ''}<br>
       ${(p.attributes||[]).map(a => `<span class="pill">${esc(a)}</span>`).join('')}
       ${p.buzz ? `<div style="margin-top:6px">${esc(p.buzz)}</div>` : ''}
       ${p.notes ? `<div style="margin-top:6px">${esc(p.notes)}</div>` : ''}

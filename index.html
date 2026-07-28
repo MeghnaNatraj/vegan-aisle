@@ -239,7 +239,7 @@ $('worth').innerHTML = rated.slice(0, 20).map((p, i) => `
     <div class="try-name">
       <span class="catchip"><i class="dot" style="background:${CCOLOR[p.cat]}"></i></span>
       <b>${esc(p.brand)}</b> ${esc(p.product)}${p.famous ? '<span class="fame">Well known</span>' : ''}
-      <span class="why">${esc(title(p.sub))}${p.buzz ? ' · ' + esc(p.buzz) : ''}</span>
+      <span class="why">${esc(title(p.sub))}${p.buy ? ' · buy: ' + esc(p.buy) : ''}${p.buzz ? ' · ' + esc(p.buzz) : ''}</span>
     </div>
     <div class="try-bar">
       <div class="track"><i style="width:${p.rating/5*100}%;background:${CCOLOR[p.cat]}" data-tip="<b>${esc(p.brand)} ${esc(p.product)}</b><br>★ ${p.rating.toFixed(1)} · ${esc(p.rating_source ?? '')}<br>weighted score ${p.adj?.toFixed(2)} from ${p.reviews_n} review${p.reviews_n>1?'s':''}"></i></div>
@@ -279,7 +279,7 @@ function render() {
     <tr class="main">
       <td><span class="catchip"><i class="dot" style="background:${CCOLOR[p.cat]}"></i>${CNAME[p.cat]}</span><span class="subtag">${esc(p.sub)}</span></td>
       <td>${esc(p.brand)}</td>
-      <td>${esc(p.product)}${p.famous ? '<span class="fame">Well known</span>' : ''}</td>
+      <td>${esc(p.product)}${p.buy ? ` <span style="color:var(--ink-3)">· buy: ${esc(p.buy)}</span>` : (p.flavor && !p.product.toLowerCase().includes(String(p.flavor).toLowerCase()) ? ` <span style="color:var(--ink-3)">· ${esc(p.flavor)}</span>` : '')}${p.famous ? '<span class="fame">Well known</span>' : ''}</td>
       <td class="rate-cell">${p.rating != null ? `<b>★ ${p.rating.toFixed(1)}</b><span class="src">${esc(p.rating_source ?? '')}</span>` : '<span style="color:var(--ink-3)">·</span>'}</td>
       <td><span class="trk">
         <button data-act="want" data-id="${esc(p.id)}" class="${e.status==='want' ? 'on-want' : ''}">Want</button>

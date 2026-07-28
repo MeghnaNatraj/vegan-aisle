@@ -3258,7 +3258,8 @@
    "cat": "dairy",
    "sub": "milk",
    "reviews_n": 3584,
-   "adj": 4.7
+   "adj": 4.7,
+   "buy": "Unsweetened"
   },
   {
    "brand": "Oatly",
@@ -3286,7 +3287,8 @@
    "cat": "dairy",
    "sub": "milk",
    "reviews_n": 2955,
-   "adj": 4.2
+   "adj": 4.2,
+   "buy": "Organic Unsweetened"
   },
   {
    "brand": "Silk",
@@ -3300,7 +3302,8 @@
    "cat": "dairy",
    "sub": "milk",
    "reviews_n": 14700,
-   "adj": 4.6
+   "adj": 4.6,
+   "buy": "Original"
   },
   {
    "brand": "Almond Breeze",
@@ -3314,7 +3317,8 @@
    "cat": "dairy",
    "sub": "milk",
    "reviews_n": 1837,
-   "adj": 4.69
+   "adj": 4.69,
+   "buy": "Original"
   },
   {
    "brand": "Califia Farms",
@@ -3356,7 +3360,8 @@
    "cat": "dairy",
    "sub": "milk",
    "reviews_n": 729,
-   "adj": 4.11
+   "adj": 4.11,
+   "buy": "Original"
   },
   {
    "brand": "Elmhurst",
@@ -3384,7 +3389,8 @@
    "cat": "dairy",
    "sub": "milk",
    "reviews_n": 45,
-   "adj": 4.36
+   "adj": 4.36,
+   "buy": "Original"
   },
   {
    "brand": "Chobani",
@@ -3398,7 +3404,8 @@
    "cat": "dairy",
    "sub": "milk",
    "reviews_n": 2322,
-   "adj": 4.5
+   "adj": 4.5,
+   "buy": "Plain Extra Creamy"
   },
   {
    "brand": "MALK",
@@ -3426,7 +3433,8 @@
    "cat": "dairy",
    "sub": "milk",
    "reviews_n": null,
-   "adj": null
+   "adj": null,
+   "buy": "Unsweetened Original"
   },
   {
    "brand": "So Delicious",
@@ -3440,7 +3448,8 @@
    "cat": "dairy",
    "sub": "milk",
    "reviews_n": 147,
-   "adj": 4.22
+   "adj": 4.22,
+   "buy": "Original"
   },
   {
    "brand": "West Life (WestSoy)",
@@ -3454,7 +3463,8 @@
    "cat": "dairy",
    "sub": "milk",
    "reviews_n": 22,
-   "adj": 4.17
+   "adj": 4.17,
+   "buy": "Unsweetened"
   },
   {
    "brand": "Eden Foods",
@@ -3468,7 +3478,8 @@
    "cat": "dairy",
    "sub": "milk",
    "reviews_n": null,
-   "adj": null
+   "adj": null,
+   "buy": "Extra Original"
   },
   {
    "brand": "Good Karma",
@@ -3482,7 +3493,8 @@
    "cat": "dairy",
    "sub": "milk",
    "reviews_n": 53,
-   "adj": 4.49
+   "adj": 4.49,
+   "buy": "Unsweetened + Protein"
   },
   {
    "brand": "Rice Dream",
@@ -3496,7 +3508,8 @@
    "cat": "dairy",
    "sub": "milk",
    "reviews_n": 51,
-   "adj": 4.42
+   "adj": 4.42,
+   "buy": "Enriched Original"
   },
   {
    "brand": "JOI",
@@ -3510,7 +3523,8 @@
    "cat": "dairy",
    "sub": "milk",
    "reviews_n": null,
-   "adj": null
+   "adj": null,
+   "buy": "Cashew"
   },
   {
    "brand": "Great Value (Walmart)",
@@ -3524,7 +3538,8 @@
    "cat": "dairy",
    "sub": "milk",
    "reviews_n": 25,
-   "adj": 4.61
+   "adj": 4.61,
+   "buy": "Original"
   },
   {
    "brand": "Ben & Jerry's",
@@ -3538,7 +3553,8 @@
    "cat": "dairy",
    "sub": "ice cream",
    "reviews_n": 3826,
-   "adj": 4.6
+   "adj": 4.6,
+   "buy": "Phish Food or Milk & Cookies"
   },
   {
    "brand": "So Delicious",
@@ -3552,7 +3568,8 @@
    "cat": "dairy",
    "sub": "ice cream",
    "reviews_n": 907,
-   "adj": 4.69
+   "adj": 4.69,
+   "buy": "Salted Caramel Cluster or Snickerdoodle"
   },
   {
    "brand": "So Delicious",
@@ -3566,7 +3583,8 @@
    "cat": "dairy",
    "sub": "ice cream",
    "reviews_n": 782,
-   "adj": 4.59
+   "adj": 4.59,
+   "buy": "Dipped Vanilla Bars"
   },
   {
    "brand": "Oatly",
@@ -3580,7 +3598,8 @@
    "cat": "dairy",
    "sub": "ice cream",
    "reviews_n": null,
-   "adj": null
+   "adj": null,
+   "buy": "Chocolate or Strawberry"
   },
   {
    "brand": "NadaMoo",
@@ -3594,7 +3613,8 @@
    "cat": "dairy",
    "sub": "ice cream",
    "reviews_n": null,
-   "adj": null
+   "adj": null,
+   "buy": "Cookies & Creme"
   },
   {
    "brand": "Van Leeuwen",
@@ -3608,7 +3628,8 @@
    "cat": "dairy",
    "sub": "ice cream",
    "reviews_n": 25,
-   "adj": 4.39
+   "adj": 4.39,
+   "buy": "Peanut Butter Brownie Honeycomb"
   },
   {
    "brand": "Haagen-Dazs",
@@ -3636,7 +3657,8 @@
    "cat": "dairy",
    "sub": "ice cream",
    "reviews_n": 21,
-   "adj": 4.46
+   "adj": 4.46,
+   "buy": "Texas Sheet Cake"
   },
   {
    "brand": "Salt & Straw",
@@ -3650,7 +3672,8 @@
    "cat": "dairy",
    "sub": "ice cream",
    "reviews_n": null,
-   "adj": null
+   "adj": null,
+   "buy": "Freckled Mint Chocolate Chip"
   },
   {
    "brand": "Cado",
@@ -3664,7 +3687,8 @@
    "cat": "dairy",
    "sub": "ice cream",
    "reviews_n": 25,
-   "adj": 4.52
+   "adj": 4.52,
+   "buy": "Deep Dark Chocolate"
   },
   {
    "brand": "Brave Robot",
@@ -3692,7 +3716,8 @@
    "cat": "dairy",
    "sub": "ice cream",
    "reviews_n": 25,
-   "adj": 4.16
+   "adj": 4.16,
+   "buy": "Mint Chocolate Chip"
   },
   {
    "brand": "365 (Whole Foods)",
@@ -3706,7 +3731,8 @@
    "cat": "dairy",
    "sub": "ice cream",
    "reviews_n": 25,
-   "adj": 4.07
+   "adj": 4.07,
+   "buy": "Berry Chantilly Cake"
   },
   {
    "brand": "Tofutti",
@@ -3720,7 +3746,8 @@
    "cat": "dairy",
    "sub": "ice cream",
    "reviews_n": null,
-   "adj": null
+   "adj": null,
+   "buy": "Vanilla"
   },
   {
    "brand": "Impossible Foods",

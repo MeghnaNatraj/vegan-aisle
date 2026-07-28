@@ -151,7 +151,6 @@
 
   <section>
     <h2>IV. Who makes what</h2>
-    <p class="lede">Brands ranked by how many products they put on the shelf, split by category.</p>
     <div class="card">
       <div id="brands"></div>
       <div class="legend" id="brand-legend"></div>
@@ -227,7 +226,7 @@ $('brands').innerHTML = topBrands.map(([b, k]) => {
   return `<div class="brow">
     <div class="blab"><span>${esc(b)}</span><span class="n">${k.total}</span></div>
     <div class="btrack">${segs}</div>
-    <div class="bwhy">${subs.length === 1 ? `specialist · ${esc(subs[0])}` : `${subs.length} subcategories: ${esc(subs.slice(0,5).join(', '))}${subs.length > 5 ? '…' : ''}`}</div>
+    <div class="bwhy">${esc(subs.join(', '))}</div>
   </div>`;
 }).join('');
 $('brand-legend').innerHTML = CATS.map(c => `<span class="li"><i class="sw" style="background:${CCOLOR[c]}"></i> ${CNAME[c]}</span>`).join('');

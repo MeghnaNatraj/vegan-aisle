@@ -21,7 +21,9 @@
    "famous": true,
    "buzz": "Won blind taste tests; cultured cashew depth, melts on pizza, caprese-worthy",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 207,
+   "adj": 4.12
   },
   {
    "brand": "Miyoko's Creamery",
@@ -43,7 +45,9 @@
    "famous": false,
    "buzz": "Boursin-like spreadable wheel; praised as rich, garlicky cheese-board centerpiece",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 27,
+   "adj": 4.44
   },
   {
    "brand": "Miyoko's Creamery",
@@ -65,7 +69,9 @@
    "famous": false,
    "buzz": "Divisive pourable format; fans say it browns clean, critics say salty, gluey, no stretch",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 3,
+   "adj": 4.22
   },
   {
    "brand": "Violife",
@@ -87,7 +93,9 @@
    "famous": true,
    "buzz": "Melts smoothly with mild tang; Sporked scored it 8.5/10 among top vegan shreds",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 1500,
+   "adj": 4.1
   },
   {
    "brand": "Violife",
@@ -109,7 +117,9 @@
    "famous": false,
    "buzz": "Reliable melt for pizza, mild taste; some note oil separation and slight aftertaste",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 1500,
+   "adj": 4.3
   },
   {
    "brand": "Violife",
@@ -131,7 +141,9 @@
    "famous": false,
    "buzz": "Convincing on burgers and grilled cheese; Violife mature cheddar slice got Sporked 10/10",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 22,
+   "adj": 4.38
   },
   {
    "brand": "Violife",
@@ -152,7 +164,9 @@
    "famous": true,
    "buzz": "The go-to vegan feta; salty and briny in Greek salads, some call the texture waxy",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 24,
+   "adj": 4.12
   },
   {
    "brand": "Violife",
@@ -173,7 +187,9 @@
    "famous": false,
    "buzz": "Has real parm's funky tang, grates and melts well; too intense eaten plain",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 25,
+   "adj": 4.16
   },
   {
    "brand": "Daiya",
@@ -195,7 +211,9 @@
    "famous": true,
    "buzz": "Most ubiquitous vegan shred; reformulated recipe won over old-Daiya skeptics",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 144,
+   "adj": 4.38
   },
   {
    "brand": "Daiya",
@@ -217,7 +235,9 @@
    "famous": false,
    "buzz": "Top-3 in Make It Dairy Free shred taste test; the vegan shred used by pizza chains",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 13,
+   "adj": 4.26
   },
   {
    "brand": "Daiya",
@@ -239,7 +259,9 @@
    "famous": false,
    "buzz": "Amazon reviews split: creamy mild taste vs bland and melts poorly",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Kite Hill",
@@ -260,7 +282,9 @@
    "famous": true,
    "buzz": "Widely called the best vegan ricotta; light, fluffy, fools dairy eaters in lasagna",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 6,
+   "adj": 4.36
   },
   {
    "brand": "Follow Your Heart",
@@ -281,7 +305,9 @@
    "famous": false,
    "buzz": "Sporked 10/10 best-vegan-cheese pick; balanced smoky-sweet flavor, melts creamy",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 115,
+   "adj": 4.46
   },
   {
    "brand": "Field Roast Chao Creamery",
@@ -303,7 +329,9 @@
    "famous": true,
    "buzz": "Sporked 9.5/10 'melts like a dream'; #1-selling US plant-based cheese slice",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 25,
+   "adj": 4.52
   },
   {
    "brand": "Field Roast Chao Creamery",
@@ -325,7 +353,9 @@
    "famous": false,
    "buzz": "Voted best pepper vegan cheese 2021; mild kick, devoted fans hunt stores for it",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 50,
+   "adj": 4.42
   },
   {
    "brand": "Treeline",
@@ -346,7 +376,9 @@
    "famous": false,
    "buzz": "Artisan cashew pioneer; reviewers call it 'better than real goat cheese', oil-free",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "So Delicious",
@@ -368,7 +400,9 @@
    "famous": false,
    "buzz": "Fans praise it; taste tests dinged its strong coconut smell and taste",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "So Delicious",
@@ -390,7 +424,9 @@
    "famous": false,
    "buzz": "Melts fine but taste testers couldn't get past the coconut flavor",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Good Planet",
@@ -411,7 +447,9 @@
    "famous": false,
    "buzz": "Newer olive-oil line; bloggers praise the melt in grilled cheese",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Good Planet",
@@ -432,7 +470,9 @@
    "famous": false,
    "buzz": "USA Today 10Best nod; creamy snackable texture praised, smoky aftertaste divides",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 3,
+   "adj": 4.17
   },
   {
    "brand": "Nurishh",
@@ -453,7 +493,9 @@
    "famous": false,
    "buzz": "Recurring complaint that it barely melts and turns sticky; a minority praise the flavor",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 12,
+   "adj": 3.78
   },
   {
    "brand": "Babybel",
@@ -473,7 +515,9 @@
    "famous": true,
    "buzz": "Sporked 9/10 best snacking vegan cheese; recipe change drew angry 1-star reviews",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 207,
+   "adj": 3.6
   },
   {
    "brand": "365 by Whole Foods Market",
@@ -493,7 +537,9 @@
    "famous": false,
    "buzz": "Shoppers call it mild but genuinely cheddary; decent budget-shred melt",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Simple Truth (Kroger)",
@@ -513,7 +559,9 @@
    "famous": false,
    "buzz": "Made Sporked's top-5 vegan shreds: 'movie theater nacho cheese' Velveeta-style cheddar",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 25,
+   "adj": 4.07
   },
   {
    "brand": "Simple Truth (Kroger)",
@@ -532,7 +580,9 @@
    "famous": false,
    "buzz": null,
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Parmela Creamery",
@@ -553,7 +603,9 @@
    "famous": false,
    "buzz": "Melts well; beat Daiya on flavor in blogger taste tests; early cult cashew shred",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 28,
+   "adj": 4.3
   },
   {
    "brand": "Parmela Creamery",
@@ -574,7 +626,9 @@
    "famous": false,
    "buzz": "Cashew-milk shreds cultured and aged 60 days; brand praised, few product reviews",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Vtopian Artisan Cheeses",
@@ -595,7 +649,9 @@
    "famous": false,
    "buzz": "Cult-favorite artisan wedge billed as a national award winner; sweet-savory",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Rebel Cheese",
@@ -616,7 +672,9 @@
    "famous": false,
    "buzz": "Shark Tank-featured, Mark Cuban-backed brand billed as most-awarded US vegan creamery",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 270,
+   "adj": 4.57
   },
   {
    "brand": "Cheeze & Thank You",
@@ -635,7 +693,9 @@
    "famous": false,
    "buzz": "Chicago artisan cashew gouda stocked by top vegan cheesemongers (Vreamery, Feasty)",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Vevan",
@@ -655,7 +715,9 @@
    "famous": false,
    "buzz": "From dairy veteran Schuman Cheese; Sporked tested it but left it out of its top 5",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Vevan",
@@ -675,7 +737,9 @@
    "famous": false,
    "buzz": "Sibling Ched-Shred scored 8/10 on Sporked; the slices got no coverage of their own",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Stockeld Dreamery",
@@ -696,7 +760,9 @@
    "famous": false,
    "buzz": "Chef-praised cultured lentil-chickpea spread; brand folded Oct 2025",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Climax Foods",
@@ -718,7 +784,9 @@
    "famous": false,
    "buzz": "Beat dairy in 2024 Good Food Awards blind tasting, then disqualified; national press",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 25,
+   "adj": 4.39
   },
   {
    "brand": "RIND",
@@ -738,7 +806,9 @@
    "famous": false,
    "buzz": "Bleu-camembert hybrid with bloomy edible rind; perfect early reviews at vegan shops",
    "cat": "dairy",
-   "sub": "cheese"
+   "sub": "cheese",
+   "reviews_n": 4,
+   "adj": 4.38
   },
   {
    "brand": "Miyoko's Creamery",
@@ -761,7 +831,9 @@
    "famous": true,
    "buzz": "Wins blogger taste tests; tangy cultured flavor called closest to real European butter",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 127,
+   "adj": 4.54
   },
   {
    "brand": "Miyoko's Creamery",
@@ -784,7 +856,9 @@
    "famous": false,
    "buzz": "Praised for creamy cultured mouthfeel; gripes are price and 8-oz size for baking",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 51,
+   "adj": 4.61
   },
   {
    "brand": "Miyoko's Creamery",
@@ -807,7 +881,9 @@
    "famous": false,
    "buzz": "Sporked no. 4 vegan butter: 'some of the creamiest vegan butter tried to date'",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 25,
+   "adj": 4.39
   },
   {
    "brand": "Earth Balance",
@@ -826,7 +902,9 @@
    "famous": true,
    "buzz": "Longtime default vegan spread; recent reviews cite flat, oily, even metallic taste",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 496,
+   "adj": 3.07
   },
   {
    "brand": "Earth Balance",
@@ -846,7 +924,9 @@
    "famous": true,
    "buzz": "Baking-community standby: swaps 1:1 for butter in cookies, pie crust, and buttercream",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 14,
+   "adj": 4.33
   },
   {
    "brand": "Earth Balance",
@@ -866,7 +946,9 @@
    "famous": false,
    "buzz": "Softer and saltier than Original; GoDairyFree says it bakes best of the EB spreads",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 20,
+   "adj": 4.18
   },
   {
    "brand": "Earth Balance",
@@ -886,7 +968,9 @@
    "famous": false,
    "buzz": "Highest-rated EB spread at Target; light whipped texture for toast and spreading",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 485,
+   "adj": 3.83
   },
   {
    "brand": "Country Crock",
@@ -906,7 +990,9 @@
    "famous": true,
    "buzz": "Sporked's #1 vegan butter, 10/10 'Best of the Best'; Tasting Table dissented (10th/12)",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 19,
+   "adj": 4.3
   },
   {
    "brand": "Country Crock",
@@ -926,7 +1012,9 @@
    "famous": false,
    "buzz": "Sporked 9.5/10 'Best Dairy Dupe'; reviewers' favorite of the two stick oils",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 19,
+   "adj": 4.3
   },
   {
    "brand": "Country Crock",
@@ -945,7 +1033,9 @@
    "famous": false,
    "buzz": "Same olive-oil formula that topped Sporked; tub-specific star ratings unreachable",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Flora",
@@ -965,7 +1055,9 @@
    "famous": false,
    "buzz": "Fans say it behaves and tastes like real butter; absent from major US editorial rankings",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 12,
+   "adj": 4.21
   },
   {
    "brand": "Flora",
@@ -985,7 +1077,9 @@
    "famous": false,
    "buzz": "Long-time dairy-free eaters call it 'closest to tasting like real butter'",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 12,
+   "adj": 4.21
   },
   {
    "brand": "Violife",
@@ -1007,7 +1101,9 @@
    "famous": false,
    "buzz": "Sporked's Best Brick; won a 9-brand bake-off but Tasting Table ranked it last",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 25,
+   "adj": 4.16
   },
   {
    "brand": "Violife",
@@ -1029,7 +1125,9 @@
    "famous": false,
    "buzz": "Top baking performer (best cake and rise) but reported discontinued as of 2026",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 9,
+   "adj": 4.34
   },
   {
    "brand": "Melt Organic",
@@ -1051,7 +1149,9 @@
    "famous": false,
    "buzz": "Coconut/sunflower blend praised by vegans and non-vegans for baking and buttery flavor",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 37,
+   "adj": 4.41
   },
   {
    "brand": "Melt Organic",
@@ -1072,7 +1172,9 @@
    "famous": false,
    "buzz": "Called smoothest on the market, spreads straight from fridge; some note coconut aftertaste",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 7,
+   "adj": 4.37
   },
   {
    "brand": "Forager Project",
@@ -1094,7 +1196,9 @@
    "famous": false,
    "buzz": "Cashew-based so smoother than oil-only spreads, earthy flavor; since discontinued",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 3,
+   "adj": 4.3
   },
   {
    "brand": "WayFare",
@@ -1115,7 +1219,9 @@
    "famous": false,
    "buzz": "Rich, creamy, palm-oil-free; fans call it best non-dairy butter, small review base",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 5,
+   "adj": 4.25
   },
   {
    "brand": "Milkadamia",
@@ -1135,7 +1241,9 @@
    "famous": false,
    "buzz": "Macadamia-based, palm-free; testers said it tastes like real butter, but retailers dropped it",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 11,
+   "adj": 4.35
   },
   {
    "brand": "I Can't Believe It's Not Butter",
@@ -1154,7 +1262,9 @@
    "famous": true,
    "buzz": "Ranked top-5 in Sporked's best vegan butter test: very salty and extra smooth",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 25,
+   "adj": 4.3
   },
   {
    "brand": "Nutiva",
@@ -1176,7 +1286,9 @@
    "famous": false,
    "buzz": "Buttery-flavor coconut oil used as a butter sub; no expert taste-test coverage found",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "ForA:Butter",
@@ -1199,7 +1311,9 @@
    "famous": false,
    "buzz": "Food52's 10-butter croissant test winner; sofi award; Michelin Guide feature",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Trader Joe's",
@@ -1218,7 +1332,9 @@
    "famous": true,
    "buzz": "Polarizing Miyoko's replacement: 'waxy margarine' to critics, r/VeganBaking's top pick",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 13,
+   "adj": 3.69
   },
   {
    "brand": "Kite Hill",
@@ -1238,7 +1354,9 @@
    "famous": false,
    "buzz": "Sporked 'Best Almond Taste,' called creamy, salty, delicious; GoDairyFree readers 5/5",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 25,
+   "adj": 4.52
   },
   {
    "brand": "Good & Gather (Target)",
@@ -1258,7 +1376,9 @@
    "famous": false,
    "buzz": "Well-liked $4.29 organic non-dairy baking sticks; currently out of stock at Target",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 101,
+   "adj": 4.45
   },
   {
    "brand": "Simple Truth (Kroger)",
@@ -1277,7 +1397,9 @@
    "famous": false,
    "buzz": "Poorly rated store-brand spread; same low 2.6 score across all Kroger banner sites",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 5,
+   "adj": 4.05
   },
   {
    "brand": "Becel",
@@ -1296,7 +1418,9 @@
    "famous": false,
    "buzz": "Canada's Upfield sibling of Country Crock; Chatelaine test found bricks bake like butter",
    "cat": "dairy",
-   "sub": "butter"
+   "sub": "butter",
+   "reviews_n": 1115,
+   "adj": 4.2
   },
   {
    "brand": "Kite Hill",
@@ -1317,7 +1441,9 @@
    "famous": true,
    "buzz": "Taste tests call it closest to dairy; mixed user reviews cite mold and aftertaste",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 10,
+   "adj": 4.07
   },
   {
    "brand": "Kite Hill",
@@ -1338,7 +1464,9 @@
    "famous": false,
    "buzz": "Sporked's top vegan cream cheese pick; great onion bite, convincing dairy sub",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 25,
+   "adj": 4.39
   },
   {
    "brand": "Kite Hill",
@@ -1359,7 +1487,9 @@
    "famous": false,
    "buzz": "No. 2 in Sporked's vegan cream cheese ranking; creamy, tahini-like sesame flavor",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 25,
+   "adj": 4.52
   },
   {
    "brand": "Kite Hill",
@@ -1380,7 +1510,9 @@
    "famous": false,
    "buzz": "Polarizing in Go Dairy Free's taste test; light strawberry flavor, fluffy texture",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 3,
+   "adj": 4.32
   },
   {
    "brand": "Kite Hill",
@@ -1401,7 +1533,9 @@
    "famous": false,
    "buzz": "Creamy with mild heat but slightly chalky; since discontinued per Go Dairy Free",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Miyoko's Creamery",
@@ -1423,7 +1557,9 @@
    "famous": true,
    "buzz": "PureWow 'best nut-based' pick (89/100); polarizing, Reddit finds it intensely sour/tangy",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 195,
+   "adj": 4.21
   },
   {
    "brand": "Miyoko's Creamery",
@@ -1445,7 +1581,9 @@
    "famous": false,
    "buzz": "Billed as the brand's best-selling, most-awarded flavor; fans love it on bagels",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 13,
+   "adj": 4.45
   },
   {
    "brand": "Miyoko's Creamery",
@@ -1467,7 +1605,9 @@
    "famous": false,
    "buzz": "Called a 'flavor bomb'; popular in buffalo dip, though some find the texture stiff",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 14,
+   "adj": 4.33
   },
   {
    "brand": "Tofutti",
@@ -1486,7 +1626,9 @@
    "famous": true,
    "buzz": "The original vegan cream cheese; Reddit favorite; PureWow 'best nut-free' (91/100)",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 380,
+   "adj": 4.3
   },
   {
    "brand": "Tofutti",
@@ -1505,7 +1647,9 @@
    "famous": false,
    "buzz": "Flavored take on Tofutti's flagship line; small review base, liked as smooth and savory",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 6,
+   "adj": 4.24
   },
   {
    "brand": "Tofutti",
@@ -1524,7 +1668,9 @@
    "famous": false,
    "buzz": "Whipped version of the vegan classic; well rated on Instacart, limited retail presence",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 256,
+   "adj": 4.39
   },
   {
    "brand": "Violife",
@@ -1545,7 +1691,9 @@
    "famous": true,
    "buzz": "Sporked 9.5/10 near-winner; Target shows 4.7/5 across 3.5K ratings",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 3700,
+   "adj": 4.6
   },
   {
    "brand": "Violife",
@@ -1566,7 +1714,9 @@
    "famous": false,
    "buzz": "Savory spin on Violife's top-rated base; fans call it closest to dairy",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 350,
+   "adj": 4.39
   },
   {
    "brand": "Violife",
@@ -1587,7 +1737,9 @@
    "famous": false,
    "buzz": "Seasonal cult favorite per vegan social media; best-rated Violife cream cheese flavor",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 220,
+   "adj": 4.56
   },
   {
    "brand": "Daiya",
@@ -1608,7 +1760,9 @@
    "famous": true,
    "buzz": "Vegan in the Freezer Most Spreadable pick, but Sporked would only buy Daiya's strawberry",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 1100,
+   "adj": 4.2
   },
   {
    "brand": "Daiya",
@@ -1629,7 +1783,9 @@
    "famous": false,
    "buzz": "Praised as rich, savory, spreadable after oat-cream reformulation; some note vegan tang",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 203,
+   "adj": 4.39
   },
   {
    "brand": "Daiya",
@@ -1650,7 +1806,9 @@
    "famous": false,
    "buzz": "Sporked 8/10 Best Fruit runner-up; 'nostalgic fake strawberry' flavor",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 174,
+   "adj": 4.38
   },
   {
    "brand": "Philadelphia",
@@ -1670,7 +1828,9 @@
    "famous": true,
    "buzz": "Kitchn praised the line; Go Dairy Free readers split (2.3/5); vanishing from US shelves",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 241,
+   "adj": 4.48
   },
   {
    "brand": "Philadelphia",
@@ -1690,7 +1850,9 @@
    "famous": false,
    "buzz": "Kitchn favorite: 'so delicious I quickly forgot they weren't made with actual cream'",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 21,
+   "adj": 4.34
   },
   {
    "brand": "Philadelphia",
@@ -1710,7 +1872,9 @@
    "famous": false,
    "buzz": "Sporked 'Best Fruit' vegan cream cheese winner; creamy with real strawberry flavor",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 25,
+   "adj": 4.52
   },
   {
    "brand": "So Delicious",
@@ -1731,7 +1895,9 @@
    "famous": false,
    "buzz": "Discontinued; gone from So Delicious site, Amazon, Walmart; no ratings survive online",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "So Delicious",
@@ -1752,7 +1918,9 @@
    "famous": false,
    "buzz": "Discontinued with the line; absent from taste tests and retailer listings",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Treeline",
@@ -1773,7 +1941,9 @@
    "famous": false,
    "buzz": "Tasting Table's best vegan cheese brand pick; close 2nd in Go Dairy Free taste test",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 25,
+   "adj": 4.61
   },
   {
    "brand": "Treeline",
@@ -1794,7 +1964,9 @@
    "famous": false,
    "buzz": "Treeline's top-selling cultured cashew cheese; Reddit fans request it for holidays",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 3,
+   "adj": 4.36
   },
   {
    "brand": "WayFare",
@@ -1816,7 +1988,9 @@
    "famous": false,
    "buzz": "Mild, lightly sweet, whipped-style per Go Dairy Free; Reddit calls it 'pretty decent'",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 6,
+   "adj": 4.38
   },
   {
    "brand": "WayFare",
@@ -1838,7 +2012,9 @@
    "famous": false,
    "buzz": "Creamy signature base with subtle onion sharpness; little retailer rating data found",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 25,
+   "adj": 4.39
   },
   {
    "brand": "Spero",
@@ -1859,7 +2035,9 @@
    "famous": false,
    "buzz": "Sporked tried it but left it unranked; brand site now defunct",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 25,
+   "adj": 4.39
   },
   {
    "brand": "Spero",
@@ -1880,7 +2058,9 @@
    "famous": false,
    "buzz": "Tangy goat-cheese mimic; some find it too sour or chalky; brand site now defunct",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 104,
+   "adj": 4.07
   },
   {
    "brand": "Nurishh",
@@ -1900,7 +2080,9 @@
    "famous": false,
    "buzz": "Tasting Table taste test: best texture of all vegan cream cheeses sampled; Reddit mixed",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Nurishh",
@@ -1920,7 +2102,9 @@
    "famous": false,
    "buzz": "Sporked writer: 'probably the best vegan cream cheese I have ever had'",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 9,
+   "adj": 4.29
   },
   {
    "brand": "Follow Your Heart",
@@ -1940,7 +2124,9 @@
    "famous": false,
    "buzz": "Smooth, spreadable, but lemon-forward and salty; fans note recent formula change",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 2,
+   "adj": 4.27
   },
   {
    "brand": "Simple Truth (Kroger)",
@@ -1957,7 +2143,9 @@
    "famous": false,
    "buzz": "Go Dairy Free tasters said closest to Philadelphia; Reddit mixed on texture",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 3,
+   "adj": 4.17
   },
   {
    "brand": "Trader Joe's",
@@ -1976,7 +2164,9 @@
    "famous": true,
    "buzz": "Sporked's #1 vegan cream cheese; Reddit split, some find it stiff and bland",
    "cat": "dairy",
-   "sub": "cream cheese"
+   "sub": "cream cheese",
+   "reviews_n": 25,
+   "adj": 4.61
   },
   {
    "brand": "Kite Hill",
@@ -1998,7 +2188,9 @@
    "famous": true,
    "buzz": "Thick 17g-protein flagship; fans love the richness, some find it too tangy",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 11,
+   "adj": 4.27
   },
   {
    "brand": "Kite Hill",
@@ -2018,7 +2210,9 @@
    "famous": false,
    "buzz": "Thickest Kite Hill yet; creamy vanilla, though some note a bitter aftertaste",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 21,
+   "adj": 4.21
   },
   {
    "brand": "Kite Hill",
@@ -2038,7 +2232,9 @@
    "famous": false,
    "buzz": "Original award-winning almond yogurt line; creamy with real vanilla bean",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 25,
+   "adj": 4.07
   },
   {
    "brand": "So Delicious",
@@ -2058,7 +2254,9 @@
    "famous": true,
    "buzz": "The OG mainstream coconut yogurt; creamy, affordable, sold everywhere",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 47,
+   "adj": 4.42
   },
   {
    "brand": "So Delicious",
@@ -2078,7 +2276,9 @@
    "famous": false,
    "buzz": "Fruit-forward crowd-pleaser; flavor line endorsed in Sporked's dairy-free retest",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 43,
+   "adj": 4.47
   },
   {
    "brand": "Silk",
@@ -2098,7 +2298,9 @@
    "famous": true,
    "buzz": "Kitchn favorite budget pick; thick, creamy base for fruit and granola",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 4,
+   "adj": 4.28
   },
   {
    "brand": "Silk",
@@ -2118,7 +2320,9 @@
    "famous": false,
    "buzz": "Smooth, sweet, easy to find; well rated by the vegan community",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 41,
+   "adj": 4.41
   },
   {
    "brand": "Forager Project",
@@ -2140,7 +2344,9 @@
    "famous": true,
    "buzz": "Gum- and starch-free staple; huge Amazon following as a plain everyday base",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 4551,
+   "adj": 4.5
   },
   {
    "brand": "Forager Project",
@@ -2163,7 +2369,9 @@
    "famous": false,
    "buzz": "13g plant protein with no gums or pea protein; well-rated newer Greek line",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 303,
+   "adj": 4.48
   },
   {
    "brand": "Forager Project",
@@ -2184,7 +2392,9 @@
    "famous": false,
    "buzz": "Organic cashew-coconut kids pouch with probiotics; scant review coverage",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Cocojune",
@@ -2206,7 +2416,9 @@
    "famous": true,
    "buzz": "Cult favorite; Sporked's top dairy-free yogurt brand, creamy and unsweetened",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 113,
+   "adj": 4.46
   },
   {
    "brand": "Cocojune",
@@ -2227,7 +2439,9 @@
    "famous": true,
    "buzz": "Sporked's #1 dairy-free yogurt at 10/10: 'really tastes like yogurt'",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 93,
+   "adj": 4.37
   },
   {
    "brand": "Culina",
@@ -2247,7 +2461,9 @@
    "famous": true,
    "buzz": "Boutique Whole Foods/Erewhon cult buy; Madagascar bourbon vanilla and maple",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Siggi's",
@@ -2268,7 +2484,9 @@
    "famous": false,
    "buzz": "Dietitian-praised skyr-style cup: ~10g protein, low sugar, thick texture",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 67,
+   "adj": 4.16
   },
   {
    "brand": "Siggi's",
@@ -2289,7 +2507,9 @@
    "famous": false,
    "buzz": "Reviewers single out vanilla-cinnamon as the thick, creamy standout of the line",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 67,
+   "adj": 4.16
   },
   {
    "brand": "Oatly",
@@ -2308,7 +2528,9 @@
    "famous": false,
    "buzz": "Oatly's oat-based yogurt line; reviewers found it tangy but slightly runny",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Oatly",
@@ -2327,7 +2549,9 @@
    "famous": false,
    "buzz": "Creamy, mild, European-style per reviewers; spotty US retail availability",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Lavva",
@@ -2348,7 +2572,9 @@
    "famous": false,
    "buzz": "No-added-sugar pili nut yogurt; polarizing tang, loved or found too sour",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 205,
+   "adj": 3.51
   },
   {
    "brand": "Lavva",
@@ -2369,7 +2595,9 @@
    "famous": false,
    "buzz": "Tanginess overpowers the strawberry for some; creamier than other flavors",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 205,
+   "adj": 3.51
   },
   {
    "brand": "Harmless Harvest",
@@ -2390,7 +2618,9 @@
    "famous": false,
    "buzz": "Readers call it the creamiest vegan yogurt; Tasting Table panned it as jelly-like",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 22,
+   "adj": 4.46
   },
   {
    "brand": "Harmless Harvest",
@@ -2410,7 +2640,9 @@
    "famous": false,
    "buzz": "Drinkable spinoff of its well-liked coconut cups; almost no ratings coverage",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Anita's",
@@ -2431,7 +2663,9 @@
    "famous": false,
    "buzz": "Purist's cult coconut yogurt: just coconut and cultures, roughly $10 a jar",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "GT's",
@@ -2453,7 +2687,9 @@
    "famous": false,
    "buzz": "Coconut Mama's #1 coconut yogurt; fans love the tang, critics knock stevia",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 61,
+   "adj": 3.83
   },
   {
    "brand": "Nancy's",
@@ -2473,7 +2709,9 @@
    "famous": false,
    "buzz": "Divisive: loyalists praise the probiotics, many report watery, gritty sourness",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 139,
+   "adj": 2.9
   },
   {
    "brand": "Nancy's",
@@ -2493,7 +2731,9 @@
    "famous": false,
    "buzz": "Vanilla skews negative: called overly sweet with a chemical aftertaste",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": 139,
+   "adj": 2.9
   },
   {
    "brand": "365 by Whole Foods Market",
@@ -2512,7 +2752,9 @@
    "famous": false,
    "buzz": "Tasting Table ranked it #3 of 9 coconut yogurts for balanced tart creaminess",
    "cat": "dairy",
-   "sub": "yogurt"
+   "sub": "yogurt",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Tofutti",
@@ -2529,7 +2771,9 @@
    "famous": true,
    "buzz": "The original vegan sour cream since the '80s; thick, creamy, mildly tangy cult staple",
    "cat": "dairy",
-   "sub": "sour cream & whips"
+   "sub": "sour cream & whips",
+   "reviews_n": 245,
+   "adj": 4.48
   },
   {
    "brand": "Forager Project",
@@ -2550,7 +2794,9 @@
    "famous": false,
    "buzz": "Cultured cashew-coconut; praised as most authentic tang and texture of the vegan options",
    "cat": "dairy",
-   "sub": "sour cream & whips"
+   "sub": "sour cream & whips",
+   "reviews_n": 52,
+   "adj": 4.3
   },
   {
    "brand": "Kite Hill",
@@ -2570,7 +2816,9 @@
    "famous": false,
    "buzz": "Sporked 8/10: best texture of major brands; tangy almond-coconut base",
    "cat": "dairy",
-   "sub": "sour cream & whips"
+   "sub": "sour cream & whips",
+   "reviews_n": 72,
+   "adj": 4.37
   },
   {
    "brand": "Follow Your Heart",
@@ -2589,7 +2837,9 @@
    "famous": false,
    "buzz": "Creamy with strong tang; Sporked scored it 6/10, mid-pack in editorial taste tests",
    "cat": "dairy",
-   "sub": "sour cream & whips"
+   "sub": "sour cream & whips",
+   "reviews_n": 28,
+   "adj": 4.25
   },
   {
    "brand": "WayFare",
@@ -2608,7 +2858,9 @@
    "famous": false,
    "buzz": "Butter bean base; devoted fans call it best DF sour cream, testers say more thick than creamy",
    "cat": "dairy",
-   "sub": "sour cream & whips"
+   "sub": "sour cream & whips",
+   "reviews_n": 6,
+   "adj": 4.29
   },
   {
    "brand": "Good Karma",
@@ -2627,7 +2879,9 @@
    "famous": false,
    "buzz": "Polarizing: taste-test panels split evenly between best-in-test and worst",
    "cat": "dairy",
-   "sub": "sour cream & whips"
+   "sub": "sour cream & whips",
+   "reviews_n": 34,
+   "adj": 4.03
   },
   {
    "brand": "Violife",
@@ -2648,7 +2902,9 @@
    "famous": false,
    "buzz": "Pro-kitchen favorite that won't split under heat or alcohol; scant retail review base",
    "cat": "dairy",
-   "sub": "sour cream & whips"
+   "sub": "sour cream & whips",
+   "reviews_n": 7,
+   "adj": 4.16
   },
   {
    "brand": "Silk",
@@ -2669,7 +2925,9 @@
    "famous": true,
    "buzz": "First mainstream vegan heavy cream; whips to soft peaks, go-to for dairy-free bakers",
    "cat": "dairy",
-   "sub": "sour cream & whips"
+   "sub": "sour cream & whips",
+   "reviews_n": 4,
+   "adj": 4.32
   },
   {
    "brand": "Country Crock",
@@ -2689,7 +2947,9 @@
    "famous": false,
    "buzz": "Lentil-milk base whips to stiff peaks; fans call it a 1:1 heavy cream swap",
    "cat": "dairy",
-   "sub": "sour cream & whips"
+   "sub": "sour cream & whips",
+   "reviews_n": 12,
+   "adj": 4.44
   },
   {
    "brand": "So Delicious",
@@ -2708,7 +2968,9 @@
    "famous": true,
    "buzz": "The vegan Cool Whip; freezer-aisle staple, Walmart shoppers rate it 3.9",
    "cat": "dairy",
-   "sub": "sour cream & whips"
+   "sub": "sour cream & whips",
+   "reviews_n": 106,
+   "adj": 4.45
   },
   {
    "brand": "So Delicious",
@@ -2727,7 +2989,9 @@
    "famous": false,
    "buzz": "Light yet creamy and indulgent; same loved formula with fewer calories",
    "cat": "dairy",
-   "sub": "sour cream & whips"
+   "sub": "sour cream & whips",
+   "reviews_n": 19,
+   "adj": 4.37
   },
   {
    "brand": "Reddi-wip",
@@ -2746,7 +3010,9 @@
    "famous": true,
    "buzz": "Velvety coconut flavor wins fans, but chronic can-dispenser failures draw complaints",
    "cat": "dairy",
-   "sub": "sour cream & whips"
+   "sub": "sour cream & whips",
+   "reviews_n": 151,
+   "adj": 4.38
   },
   {
    "brand": "Califia Farms",
@@ -2766,7 +3032,9 @@
    "famous": false,
    "buzz": "Tasting Table crowned Califia creamers #1, like liquid vanilla ice cream",
    "cat": "dairy",
-   "sub": "coffee creamers"
+   "sub": "coffee creamers",
+   "reviews_n": 488,
+   "adj": 4.49
   },
   {
    "brand": "Califia Farms",
@@ -2785,7 +3053,9 @@
    "famous": true,
    "buzz": "Cult coconut cream + almond milk half-and-half; a coffee-community favorite",
    "cat": "dairy",
-   "sub": "coffee creamers"
+   "sub": "coffee creamers",
+   "reviews_n": 5,
+   "adj": 4.34
   },
   {
    "brand": "Nutpods",
@@ -2805,7 +3075,9 @@
    "famous": true,
    "buzz": "Whole30/keto cult creamer; Walmart shoppers rate the line 4.7, critics find flavor faint",
    "cat": "dairy",
-   "sub": "coffee creamers"
+   "sub": "coffee creamers",
+   "reviews_n": 1409,
+   "adj": 4.3
   },
   {
    "brand": "Oatly",
@@ -2824,7 +3096,9 @@
    "famous": true,
    "buzz": "The gold-standard cafe oat milk that started the oat wave; steams and foams like dairy",
    "cat": "dairy",
-   "sub": "coffee creamers"
+   "sub": "coffee creamers",
+   "reviews_n": 494,
+   "adj": 4.58
   },
   {
    "brand": "Chobani",
@@ -2843,7 +3117,9 @@
    "famous": false,
    "buzz": "Little-reviewed; sibling Chobani plant creamer earned a rare Sporked 10/10",
    "cat": "dairy",
-   "sub": "coffee creamers"
+   "sub": "coffee creamers",
+   "reviews_n": 2,
+   "adj": 4.3
   },
   {
    "brand": "Silk",
@@ -2862,7 +3138,9 @@
    "famous": true,
    "buzz": "Flagship of the #1 plant-based creamer brand; thousands of high ratings",
    "cat": "dairy",
-   "sub": "coffee creamers"
+   "sub": "coffee creamers",
+   "reviews_n": 2634,
+   "adj": 4.6
   },
   {
    "brand": "Silk",
@@ -2881,7 +3159,9 @@
    "famous": false,
    "buzz": "The long-running original soy creamer; reliable classic, less buzz than newer oat lines",
    "cat": "dairy",
-   "sub": "coffee creamers"
+   "sub": "coffee creamers",
+   "reviews_n": 23,
+   "adj": 4.34
   },
   {
    "brand": "Coffee mate Natural Bliss",
@@ -2898,7 +3178,9 @@
    "famous": false,
    "buzz": "Chowhound: blends seamlessly with mild sweetness; reliable but unremarkable",
    "cat": "dairy",
-   "sub": "coffee creamers"
+   "sub": "coffee creamers",
+   "reviews_n": 8,
+   "adj": 4.19
   },
   {
    "brand": "Elmhurst",
@@ -2918,7 +3200,9 @@
    "famous": false,
    "buzz": "Loved for a clean 3-ingredient label; editorial testers call it thin and watery",
    "cat": "dairy",
-   "sub": "coffee creamers"
+   "sub": "coffee creamers",
+   "reviews_n": 1925,
+   "adj": 4.1
   },
   {
    "brand": "Planet Oat",
@@ -2937,7 +3221,9 @@
    "famous": false,
    "buzz": "Tastes like classic Coffee mate per Chowhound, but thin body ranks it mid-pack",
    "cat": "dairy",
-   "sub": "coffee creamers"
+   "sub": "coffee creamers",
+   "reviews_n": 5,
+   "adj": 4.22
   },
   {
    "brand": "Ripple",
@@ -2956,7 +3242,9 @@
    "famous": false,
    "buzz": "Pea-protein half-and-half praised in coffee; tiny review base",
    "cat": "dairy",
-   "sub": "coffee creamers"
+   "sub": "coffee creamers",
+   "reviews_n": 4,
+   "adj": 4.35
   },
   {
    "brand": "Oatly",
@@ -2968,7 +3256,9 @@
    "buzz": "The brand that made oat milk a phenomenon; 'post-milk generation' marketing, 2021 IPO",
    "notes": "Sporked scored The Original 4.0/5 and Unsweetened 4.8/5",
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": 3584,
+   "adj": 4.7
   },
   {
    "brand": "Oatly",
@@ -2980,7 +3270,9 @@
    "buzz": "Coffee-shop standard for steaming and latte art; drove the oat-milk latte boom",
    "notes": null,
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": 1406,
+   "adj": 4.69
   },
   {
    "brand": "Silk",
@@ -2992,7 +3284,9 @@
    "buzz": "The original mainstream plant milk since 1996; Sporked 5.0/5 for Organic Unsweet",
    "notes": "Original, Vanilla, Organic Unsweetened variants",
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": 2955,
+   "adj": 4.2
   },
   {
    "brand": "Silk",
@@ -3004,7 +3298,9 @@
    "buzz": "Best-selling refrigerated almond milk line; Sporked 5.0/5 for Original",
    "notes": "Silk's oat line (Oat Yeah) was discontinued; creamers remain",
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": 14700,
+   "adj": 4.6
   },
   {
    "brand": "Almond Breeze",
@@ -3016,7 +3312,9 @@
    "buzz": "Blue Diamond's flagship; Sporked 5.0/5 for Original, a category-defining almond milk",
    "notes": null,
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": 1837,
+   "adj": 4.69
   },
   {
    "brand": "Califia Farms",
@@ -3028,7 +3326,9 @@
    "buzz": "Curvy-bottle cult brand; barista blend is a cafe staple",
    "notes": "Extra Creamy oat rates lower (3.9 at Target)",
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": 1478,
+   "adj": 4.5
   },
   {
    "brand": "Califia Farms",
@@ -3040,7 +3340,9 @@
    "buzz": "Almond line that launched the brand alongside its cold brews",
    "notes": null,
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": 1382,
+   "adj": 4.5
   },
   {
    "brand": "Ripple",
@@ -3052,7 +3354,9 @@
    "buzz": "Pea-protein pioneer with 8g protein per cup; Kids line rates 4.5 at Target",
    "notes": null,
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": 729,
+   "adj": 4.11
   },
   {
    "brand": "Elmhurst",
@@ -3064,7 +3368,9 @@
    "buzz": "97-year-old NYC dairy reborn as minimalist nut-milk brand; often just 2 ingredients",
    "notes": "No gums or oils; also oat, cashew, walnut, hazelnut lines",
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Planet Oat",
@@ -3076,7 +3382,9 @@
    "buzz": "Top-selling grocery oat milk in the US by volume (HP Hood)",
    "notes": "Sporked scored Original 3.8/5",
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": 45,
+   "adj": 4.36
   },
   {
    "brand": "Chobani",
@@ -3088,7 +3396,9 @@
    "buzz": "Sporked 4.8/5 for Plain Extra Creamy, runner-up best oat milk overall",
    "notes": null,
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": 2322,
+   "adj": 4.5
   },
   {
    "brand": "MALK",
@@ -3100,7 +3410,9 @@
    "buzz": "Clean-label darling: 3 ingredients, no gums or fillers; strong wellness following",
    "notes": null,
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": 6048,
+   "adj": 4.4
   },
   {
    "brand": "Three Trees",
@@ -3112,7 +3424,9 @@
    "buzz": "Nut-heavy, no-gum organic milks; Sporked gave its pistachio milk 3.5/5",
    "notes": "Small premium brand; also soy, oat, black sesame",
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "So Delicious",
@@ -3124,7 +3438,9 @@
    "buzz": "Longtime coconut-milk staple from the dairy-free pioneer brand",
    "notes": null,
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": 147,
+   "adj": 4.22
   },
   {
    "brand": "West Life (WestSoy)",
@@ -3136,7 +3452,9 @@
    "buzz": "Legacy soymilk rebranded from WestSoy in 2023; unsweetened is beloved by purists",
    "notes": null,
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": 22,
+   "adj": 4.17
   },
   {
    "brand": "Eden Foods",
@@ -3148,7 +3466,9 @@
    "buzz": "Old-school macrobiotic soymilk in shelf-stable cartons since 1983",
    "notes": "Limited retail footprint; mostly natural-foods stores",
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Good Karma",
@@ -3160,7 +3480,9 @@
    "buzz": "The main flax milk on US shelves; omega-3 pitch, nut-free",
    "notes": null,
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": 53,
+   "adj": 4.49
   },
   {
    "brand": "Rice Dream",
@@ -3172,7 +3494,9 @@
    "buzz": "The classic rice milk of the 90s; still the default for top-allergen-free milk",
    "notes": null,
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": 51,
+   "adj": 4.42
   },
   {
    "brand": "JOI",
@@ -3184,7 +3508,9 @@
    "buzz": "DTC nut-milk bases you blend at home; zero-waste, barista-adopted niche",
    "notes": "Almond, cashew, and oat powder/concentrate formats",
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Great Value (Walmart)",
@@ -3196,7 +3522,9 @@
    "buzz": "Sporked's shock winner over Oatly in its oat milk ranking",
    "notes": "Store brand at a fraction of Oatly's price",
    "cat": "dairy",
-   "sub": "milk"
+   "sub": "milk",
+   "reviews_n": 25,
+   "adj": 4.61
   },
   {
    "brand": "Ben & Jerry's",
@@ -3208,7 +3536,9 @@
    "buzz": "Biggest name in vegan pints; Sporked 5.0/5 for Phish Food and Milk & Cookies ND",
    "notes": "Almond and oat bases across ~15 flavors",
    "cat": "dairy",
-   "sub": "ice cream"
+   "sub": "ice cream",
+   "reviews_n": 3826,
+   "adj": 4.6
   },
   {
    "brand": "So Delicious",
@@ -3220,7 +3550,9 @@
    "buzz": "Category pioneer's richest line; Sporked 4.5/5 Snickerdoodle, 4.5/5 Salted Caramel",
    "notes": null,
    "cat": "dairy",
-   "sub": "ice cream"
+   "sub": "ice cream",
+   "reviews_n": 907,
+   "adj": 4.69
   },
   {
    "brand": "So Delicious",
@@ -3232,7 +3564,9 @@
    "buzz": "Dipped bars hit 4.8 stars at Target; go-to vegan novelty format",
    "notes": null,
    "cat": "dairy",
-   "sub": "ice cream"
+   "sub": "ice cream",
+   "reviews_n": 782,
+   "adj": 4.59
   },
   {
    "brand": "Oatly",
@@ -3244,7 +3578,9 @@
    "buzz": "Oat-base pints praised for scoopability; availability scaled back in US retail",
    "notes": "Not currently stocked at Target",
    "cat": "dairy",
-   "sub": "ice cream"
+   "sub": "ice cream",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "NadaMoo",
@@ -3256,7 +3592,9 @@
    "buzz": "Austin cult favorite; organic coconut base, lower sugar than most vegan pints",
    "notes": "Sold mainly at Whole Foods/Sprouts; no retailer rating found",
    "cat": "dairy",
-   "sub": "ice cream"
+   "sub": "ice cream",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Van Leeuwen",
@@ -3268,7 +3606,9 @@
    "buzz": "NYC scoop-shop brand whose oat/cashew vegan pints rival its dairy line",
    "notes": "Dairy-free items at Target rate 4.2-4.8",
    "cat": "dairy",
-   "sub": "ice cream"
+   "sub": "ice cream",
+   "reviews_n": 25,
+   "adj": 4.39
   },
   {
    "brand": "Haagen-Dazs",
@@ -3280,7 +3620,9 @@
    "buzz": "Launched 2017 to acclaim; line has largely disappeared from US shelves",
    "notes": "Only sorbets remain widely stocked (Mango 4.5 at Target)",
    "cat": "dairy",
-   "sub": "ice cream"
+   "sub": "ice cream",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Jeni's",
@@ -3292,7 +3634,9 @@
    "buzz": "Coconut-cream base from the beloved Columbus brand; small but praised lineup",
    "notes": null,
    "cat": "dairy",
-   "sub": "ice cream"
+   "sub": "ice cream",
+   "reviews_n": 21,
+   "adj": 4.46
   },
   {
    "brand": "Salt & Straw",
@@ -3304,7 +3648,9 @@
    "buzz": "Coconut-cream vegan flavors; Freckled Mint Chocolate Chip is a site best seller",
    "notes": "$15 DTC pints; no public star ratings on brand site",
    "cat": "dairy",
-   "sub": "ice cream"
+   "sub": "ice cream",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Cado",
@@ -3316,7 +3662,9 @@
    "buzz": "Avocado-base pints; one of Sporked's top dairy-free scores",
    "notes": null,
    "cat": "dairy",
-   "sub": "ice cream"
+   "sub": "ice cream",
+   "reviews_n": 25,
+   "adj": 4.52
   },
   {
    "brand": "Brave Robot",
@@ -3328,7 +3676,9 @@
    "buzz": "Perfect Day's precision-fermented whey pints; wound down after 2023 sale",
    "notes": "Not strictly vegan: animal-free but real milk protein",
    "cat": "dairy",
-   "sub": "ice cream"
+   "sub": "ice cream",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "bettergoods (Walmart)",
@@ -3340,7 +3690,9 @@
    "buzz": "Walmart's new store-brand vegan pints earned a Sporked recommendation",
    "notes": null,
    "cat": "dairy",
-   "sub": "ice cream"
+   "sub": "ice cream",
+   "reviews_n": 25,
+   "adj": 4.16
   },
   {
    "brand": "365 (Whole Foods)",
@@ -3352,7 +3704,9 @@
    "buzz": "Whole Foods store-brand vegan pints, incl. a Berry Chantilly Cake tie-in",
    "notes": null,
    "cat": "dairy",
-   "sub": "ice cream"
+   "sub": "ice cream",
+   "reviews_n": 25,
+   "adj": 4.07
   },
   {
    "brand": "Tofutti",
@@ -3364,7 +3718,9 @@
    "buzz": "The OG vegan ice cream sandwich since the 1980s; soy-based nostalgia icon",
    "notes": "Not stocked at Target; no verifiable retailer rating found",
    "cat": "dairy",
-   "sub": "ice cream"
+   "sub": "ice cream",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Impossible Foods",
@@ -3376,7 +3732,9 @@
    "buzz": "Beat animal nuggets in blind taste tests; Sporked's #1 vegan nugget (10/10 = 5/5)",
    "notes": "Soy-based, juicy dark-meat texture; Spicy and Wild Nuggies spinoffs",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": 2300,
+   "adj": 4.6
   },
   {
    "brand": "Impossible Foods",
@@ -3388,7 +3746,9 @@
    "buzz": "Amazon Best Seller badge in plant-based frozen chicken",
    "notes": "Walmart 4.6/5 (1,063); spicy patty version rates 4.7/5",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": 866,
+   "adj": 4.78
   },
   {
    "brand": "Beyond Meat",
@@ -3400,7 +3760,9 @@
    "buzz": "Sporked 9.5/10 (4.8/5) runner-up; tastes proudly plant-based rather than uncanny",
    "notes": "Breaded Beyond Chicken Tenders were foodservice-only; retail line is nuggets",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": 487,
+   "adj": 4.49
   },
   {
    "brand": "Beyond Meat",
@@ -3412,7 +3774,9 @@
    "buzz": "Unbreaded stir-fry pieces, Beyond's answer to Daring",
    "notes": null,
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": 434,
+   "adj": 4.21
   },
   {
    "brand": "Gardein",
@@ -3424,7 +3788,9 @@
    "buzz": "The OG freezer-aisle vegan tender with 10K+ Amazon ratings",
    "notes": "Gardein's longest-running chick'n SKU",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": 10300,
+   "adj": 4.4
   },
   {
    "brand": "Gardein",
@@ -3436,7 +3802,9 @@
    "buzz": "Flagship of Gardein's meatier 'Ultimate' line; spicy filet rates 4.5/5",
    "notes": "Target shoppers are cooler on it: 4.1/5 (208)",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": 2400,
+   "adj": 4.6
   },
   {
    "brand": "Gardein",
@@ -3448,7 +3816,9 @@
    "buzz": "Breaded 'Ultimate' tender, consistently mid-4s across retailers",
    "notes": "Target rating lower at 4.2/5 (100)",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": 1900,
+   "adj": 4.6
   },
   {
    "brand": "Gardein",
@@ -3460,7 +3830,9 @@
    "buzz": "Extra Crispy variant runs 4.7/5 at Walmart",
    "notes": null,
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": 556,
+   "adj": 4.58
   },
   {
    "brand": "Gardein",
@@ -3472,7 +3844,9 @@
    "buzz": "Quick-cook unbreaded cutlet, a longtime vegan-cooking-blog staple",
    "notes": "Not stocked at Walmart/Amazon; no reliable retailer star data found",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Gardein",
@@ -3484,7 +3858,9 @@
    "buzz": null,
    "notes": "Boneless breaded wing in buffalo sauce",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": 171,
+   "adj": 4.3
   },
   {
    "brand": "Gardein",
@@ -3496,7 +3872,9 @@
    "buzz": "Sporked gave the Ultimate strips 9.5/10 (4.8/5): firm, stays moist, fajita-ready",
    "notes": "Newer Ultimate Original Strips SKU only 3.9/5 (40) on Amazon",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": 780,
+   "adj": 4.4
   },
   {
    "brand": "Daring",
@@ -3508,7 +3886,9 @@
    "buzz": "Sporked 10/10 (5/5): 'pull apart exactly like chicken'; Drake-backed DTC darling",
    "notes": "Reddit split: praised for realism, dinged for soft texture; Cajun 4.5/5",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": 1400,
+   "adj": 4.3
   },
   {
    "brand": "Daring",
@@ -3520,7 +3900,9 @@
    "buzz": null,
    "notes": "Breaded version of the Original pieces",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": 466,
+   "adj": 4.3
   },
   {
    "brand": "Daring",
@@ -3532,7 +3914,9 @@
    "buzz": "Sporked 9.5/10 (4.8/5); hearty pull-apart texture in tangy buffalo sauce",
    "notes": null,
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": 1000,
+   "adj": 4.49
   },
   {
    "brand": "Simulate",
@@ -3544,7 +3928,9 @@
    "buzz": "Viral 'nuggets 2.0' startup that shipped flavor updates like software patch notes",
    "notes": "Absent from Walmart/Amazon/Target listings as of Jul 2026; retail run faded",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "MorningStar Farms",
@@ -3556,7 +3942,9 @@
    "buzz": "Decades-old freezer icon, now fully vegan; many vegetarians' first fake chicken",
    "notes": "Target crowd tougher: 4.1/5 (978); Buffalo patty 4.4/5",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": 2500,
+   "adj": 4.6
   },
   {
    "brand": "MorningStar Farms",
@@ -3568,7 +3956,9 @@
    "buzz": "One of the highest-rated vegan nuggets on Amazon",
    "notes": "Spicy Buffalo nuggets: 4.4/5 (691) at Walmart",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": 1800,
+   "adj": 4.69
   },
   {
    "brand": "Boca",
@@ -3580,7 +3970,9 @@
    "buzz": "2000s freezer staple; Kraft Heinz has shrunk Boca to a handful of burger SKUs",
    "notes": "No Chik'n listings at Target or Walmart searches, Jul 2026",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Quorn",
@@ -3592,7 +3984,9 @@
    "buzz": "Mycoprotein pioneer, fermentation-grown rather than soy/pea",
    "notes": "US flagship Pieces (4.8/5 Amazon) contain egg; vegan SKUs thinly stocked",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Rebellyous",
@@ -3604,7 +3998,9 @@
    "buzz": "Seattle startup targeting price parity via K-12 cafeterias and foodservice",
    "notes": "Mostly foodservice; minimal retail review data",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Tindle",
@@ -3616,7 +4012,9 @@
    "buzz": "Singapore-founded, chef-hyped 2022 US launch followed by a sharp retail pullback",
    "notes": "Only a case-pack listing at Walmart (1 review); no meaningful star data",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Alpha Foods",
@@ -3628,7 +4026,9 @@
    "buzz": "Tested but unranked in Sporked's vegan-nugget bracket",
    "notes": "Not found in current Walmart/Amazon listings; distribution has thinned",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Sweet Earth",
@@ -3640,7 +4040,9 @@
    "buzz": "Nestle has wound down Sweet Earth meat alternatives; largely off US shelves",
    "notes": "No current listings at Walmart/Amazon/Target searches",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Trader Joe's",
@@ -3652,7 +4054,9 @@
    "buzz": "Cult favorite on r/traderjoes; a go-to cheap starter swap for vegan newcomers",
    "notes": "Soy-protein tenders; TJ's hosts no ratings, fan sites show comments only",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "365 by Whole Foods Market",
@@ -3664,7 +4068,9 @@
    "buzz": "Sporked's budget pick: quick, great crunch, seasoning that doesn't overpower",
    "notes": "365 Plant-Based Chicken Chunks sibling SKU rates 4.2/5 (235)",
    "cat": "meat",
-   "sub": "chicken"
+   "sub": "chicken",
+   "reviews_n": 86,
+   "adj": 4.3
   },
   {
    "brand": "House Foods",
@@ -3676,7 +4082,9 @@
    "buzz": "Sporked's unanimous #1 tofu; Tasting Table also ranks it near the top",
    "notes": "Largest US tofu maker; cheap and everywhere",
    "cat": "meat",
-   "sub": "tofu"
+   "sub": "tofu",
+   "reviews_n": 25,
+   "adj": 4.61
   },
   {
    "brand": "Nasoya",
@@ -3688,7 +4096,9 @@
    "buzz": "Pre-pressed convenience pick; Tasting Table calls it a reliable middle-ground",
    "notes": "Most distributed tofu brand in US grocery",
    "cat": "meat",
-   "sub": "tofu"
+   "sub": "tofu",
+   "reviews_n": 25,
+   "adj": 4.3
   },
   {
    "brand": "Wildwood",
@@ -3700,7 +4110,9 @@
    "buzz": "Tasting Table's #4 of 12; dense sprouted block with 14g protein",
    "notes": "Only major sprouted-soy tofu line",
    "cat": "meat",
-   "sub": "tofu"
+   "sub": "tofu",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Hodo",
@@ -3712,7 +4124,9 @@
    "buzz": "Chef darling; makes Chipotle's sofritas base, tops most editorial rankings",
    "notes": "Pricey at ~$0.63/oz but superior for frying",
    "cat": "meat",
-   "sub": "tofu"
+   "sub": "tofu",
+   "reviews_n": 25,
+   "adj": 4.52
   },
   {
    "brand": "365 Whole Foods",
@@ -3724,7 +4138,9 @@
    "buzz": "Critics split: Sporked loved the value, Tasting Table found it crumbly",
    "notes": "Budget staple; crisps well when fried",
    "cat": "meat",
-   "sub": "tofu"
+   "sub": "tofu",
+   "reviews_n": 25,
+   "adj": 4.39
   },
   {
    "brand": "Trader Joe's",
@@ -3736,7 +4152,9 @@
    "buzz": "Tasting Table's #1 store tofu; dense, chewy cult value at ~$0.17/oz",
    "notes": "No pressing needed; 14g protein",
    "cat": "meat",
-   "sub": "tofu"
+   "sub": "tofu",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Azumaya",
@@ -3748,7 +4166,9 @@
    "buzz": "Budget legacy brand; Tasting Table ranks it mid-pack, close to Nasoya",
    "notes": "House Foods-owned; cheaper, not organic",
    "cat": "meat",
-   "sub": "tofu"
+   "sub": "tofu",
+   "reviews_n": 126,
+   "adj": 4.62
   },
   {
    "brand": "Twin Oaks",
@@ -3760,7 +4180,9 @@
    "buzz": "Handmade by a Virginia egalitarian commune since the '90s; regional cult pick",
    "notes": "Mid-Atlantic natural-foods distribution",
    "cat": "meat",
-   "sub": "tofu"
+   "sub": "tofu",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Lightlife",
@@ -3772,7 +4194,9 @@
    "buzz": "The default US grocery tempeh; 72% five-star but Reddit debates its bitterness",
    "notes": "Polarizing: 11% one-star at Target",
    "cat": "meat",
-   "sub": "tempeh"
+   "sub": "tempeh",
+   "reviews_n": 185,
+   "adj": 4.21
   },
   {
    "brand": "Tofurky",
@@ -3784,7 +4208,9 @@
    "buzz": "Mashed ranked it 9th of 11 fake bacons: mild maple smoke, odd soft texture",
    "notes": "Marinated strips; better crisped hard",
    "cat": "meat",
-   "sub": "tempeh"
+   "sub": "tempeh",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "SoyBoy",
@@ -3796,7 +4222,9 @@
    "buzz": "Upstate NY organic stalwart since 1977; its tempeh bacon beat Tofurky's in Mashed",
    "notes": "Co-op and natural-foods channel staple",
    "cat": "meat",
-   "sub": "tempeh"
+   "sub": "tempeh",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Henry's",
@@ -3808,7 +4236,9 @@
    "buzz": "Small-batch fresh (unpasteurized) tempeh with a devoted regional following",
    "notes": "Local/farmers-market tier, limited reach",
    "cat": "meat",
-   "sub": "tempeh"
+   "sub": "tempeh",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Trader Joe's",
@@ -3820,7 +4250,9 @@
    "buzz": "The ~$2 budget tempeh Reddit vegans default to; milder than Lightlife",
    "notes": "Soy plus brown rice, barley, millet",
    "cat": "meat",
-   "sub": "tempeh"
+   "sub": "tempeh",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Upton's Naturals",
@@ -3832,7 +4264,9 @@
    "buzz": "Reddit's default store-bought seitan; praised for simple ingredients and chew",
    "notes": "Chorizo style also a fan favorite",
    "cat": "meat",
-   "sub": "seitan"
+   "sub": "seitan",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Blackbird Foods",
@@ -3844,7 +4278,9 @@
    "buzz": "NYC pizza-world seitan maker; wings and plant pepperoni now in Whole Foods",
    "notes": "Newer craft entrant, growing distribution",
    "cat": "meat",
-   "sub": "seitan"
+   "sub": "seitan",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "WestSoy",
@@ -3856,7 +4292,9 @@
    "buzz": "Long-running shelf seitan; fans pan-crisp it, critics find it spongy from the tub",
    "notes": "Often the only seitan at mainstream stores",
    "cat": "meat",
-   "sub": "seitan"
+   "sub": "seitan",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "No Evil Foods",
@@ -3868,7 +4306,9 @@
    "buzz": "Once-hip punk-branded seitan; union dispute bruised its rep and reach shrank",
    "notes": "Hard to find at retail now",
    "cat": "meat",
-   "sub": "seitan"
+   "sub": "seitan",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Tofurky",
@@ -3880,7 +4320,9 @@
    "buzz": "The original 1995 vegan Thanksgiving centerpiece; millions sold, a cultural icon",
    "notes": "Seasonal; Sporked tested it without a score",
    "cat": "meat",
-   "sub": "seitan"
+   "sub": "seitan",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Field Roast",
@@ -3892,7 +4334,9 @@
    "buzz": "Grain-meat classic; sibling Hazelnut Cranberry roast scored 8/10 at Sporked",
    "notes": "Stuffed with butternut squash and apple",
    "cat": "meat",
-   "sub": "seitan"
+   "sub": "seitan",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Gardein",
@@ -3904,7 +4348,9 @@
    "buzz": "Sporked's #1 vegan turkey roast: super tender with standout gravy",
    "notes": "Seasonal; availability varies year to year",
    "cat": "meat",
-   "sub": "seitan"
+   "sub": "seitan",
+   "reviews_n": 25,
+   "adj": 4.39
   },
   {
    "brand": "JUST Egg",
@@ -3916,7 +4362,9 @@
    "buzz": "Sporked 9/10, Green Queen 9/10; Reddit's default vegan scramble recommendation",
    "notes": "Mung bean protein; 2024 reformulation improved taste and texture",
    "cat": "eggs",
-   "sub": "eggs"
+   "sub": "eggs",
+   "reviews_n": 114,
+   "adj": 4.38
   },
   {
    "brand": "JUST Egg",
@@ -3928,7 +4376,9 @@
    "buzz": "Sporked 8.5/10; toaster-ready patty built for breakfast sandwiches",
    "notes": "Frozen 8oz box of 4 patties",
    "cat": "eggs",
-   "sub": "eggs"
+   "sub": "eggs",
+   "reviews_n": 169,
+   "adj": 4.55
   },
   {
    "brand": "JUST Egg",
@@ -3940,7 +4390,9 @@
    "buzz": "Pitched as a Starbucks egg-bite dupe at 2021 launch; later hit by allergen recall",
    "notes": "Spotty availability; listed via Amazon, Safeway, Instacart",
    "cat": "eggs",
-   "sub": "eggs"
+   "sub": "eggs",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Simply Eggless",
@@ -3952,7 +4404,9 @@
    "buzz": "Lupin-bean liquid egg; line expanded to patties, bites, frozen sandwiches",
    "notes": "Sold at Walmart, Sprouts and vegan grocers",
    "cat": "eggs",
-   "sub": "eggs"
+   "sub": "eggs",
+   "reviews_n": 25,
+   "adj": 3.93
   },
   {
    "brand": "Yo Egg",
@@ -3964,7 +4418,9 @@
    "buzz": "World's first plant-based poached egg with runny yolk; Real Simple and press raves",
    "notes": "Soy-chickpea; restaurant-first in LA/NYC, limited retail",
    "cat": "eggs",
-   "sub": "eggs"
+   "sub": "eggs",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Crafty Counter",
@@ -3976,7 +4432,9 @@
    "buzz": "TIME Best Inventions 2022; Green Queen 8/10; launched as Whole Foods exclusive",
    "notes": "Almond, cashew and coconut-milk base",
    "cat": "eggs",
-   "sub": "eggs"
+   "sub": "eggs",
+   "reviews_n": 25,
+   "adj": 4.07
   },
   {
    "brand": "Zero Egg",
@@ -3988,7 +4446,9 @@
    "buzz": "Israeli startup focused on foodservice; liquid egg and patties for chefs",
    "notes": "B2B/foodservice focus; limited US retail presence",
    "cat": "eggs",
-   "sub": "eggs"
+   "sub": "eggs",
+   "reviews_n": 25,
+   "adj": 4.16
   },
   {
    "brand": "Bob's Red Mill",
@@ -4000,7 +4460,9 @@
    "buzz": "Baking-aisle staple; potato starch and psyllium husk mix",
    "notes": "Binder for baking only, not for scrambles",
    "cat": "eggs",
-   "sub": "eggs"
+   "sub": "eggs",
+   "reviews_n": 291,
+   "adj": 4.3
   },
   {
    "brand": "Ener-G",
@@ -4012,7 +4474,9 @@
    "buzz": "The original egg replacer since the 1970s; longtime vegan-baking standard",
    "notes": "Potato/tapioca starch powder; no verifiable retail rating found",
    "cat": "eggs",
-   "sub": "eggs"
+   "sub": "eggs",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Follow Your Heart",
@@ -4024,7 +4488,9 @@
    "buzz": "Algal-flour whole-egg powder with a cult following; quietly discontinued",
    "notes": "No longer listed on Follow Your Heart's product page",
    "cat": "eggs",
-   "sub": "eggs"
+   "sub": "eggs",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Neat",
@@ -4036,7 +4502,9 @@
    "buzz": "Two-ingredient chia and garbanzo bean binder mix",
    "notes": "For binding in baking, not standalone eggs",
    "cat": "eggs",
-   "sub": "eggs"
+   "sub": "eggs",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "Peggs",
@@ -4048,7 +4516,9 @@
    "buzz": "Chickpea-flax powder marketed as 'made in a kitchen, not a lab'",
    "notes": "Sold via Amazon, Walmart, eatpeggs.com",
    "cat": "eggs",
-   "sub": "eggs"
+   "sub": "eggs",
+   "reviews_n": null,
+   "adj": null
   },
   {
    "brand": "AcreMade",
@@ -4060,7 +4530,9 @@
    "buzz": "One of two perfect scores in Green Queen's 9-product vegan egg taste test",
    "notes": "Pea-protein powder; free from top 9 allergens",
    "cat": "eggs",
-   "sub": "eggs"
+   "sub": "eggs",
+   "reviews_n": 25,
+   "adj": 4.61
   },
   {
    "brand": "Hodo",
@@ -4072,7 +4544,9 @@
    "buzz": "Sporked-approved ready-to-eat scramble; Green Queen scored it 5/10",
    "notes": "Organic soy (tofu) base from the Hodo tofu makers",
    "cat": "eggs",
-   "sub": "eggs"
+   "sub": "eggs",
+   "reviews_n": 25,
+   "adj": 3.93
   }
  ]
 }

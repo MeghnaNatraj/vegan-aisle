@@ -114,7 +114,7 @@
 
   <section>
     <h2>II. Browse and track</h2>
-    <p class="lede">Every product, best-rated first. Mark what you want to try and what you've tried, and add your own stars once you have. Click a row for details.</p>
+    <p class="lede">Every product, sorted by the same review-count-weighted score. Mark what you want to try and what you've tried, and add your own stars once you have. Click a row for details.</p>
     <div class="filters">
       <select id="f-cat" aria-label="Filter by category"></select>
       <select id="f-sub" aria-label="Filter by subcategory"></select>
@@ -145,7 +145,7 @@
 
   <section>
     <h2>III. Worth trying</h2>
-    <p class="lede">The best-reviewed products across the whole aisle, ranked by rating. <span class="fame">Well known</span> marks the famous ones.</p>
+    <p class="lede">The best-reviewed products across the whole aisle, ranked by a score that weighs each rating by its number of reviews, so one 5-star review does not outrank thousands. <span class="fame">Well known</span> marks the famous ones.</p>
     <div class="card" id="worth"></div>
   </section>
 
@@ -232,7 +232,7 @@ $('brands').innerHTML = topBrands.map(([b, k]) => {
 $('brand-legend').innerHTML = CATS.map(c => `<span class="li"><i class="sw" style="background:${CCOLOR[c]}"></i> ${CNAME[c]}</span>`).join('');
 
 /* worth trying: top-rated across the aisle */
-const rated = P.filter(p => p.rating != null).sort((a,b) => b.rating - a.rating || (b.famous?1:0)-(a.famous?1:0));
+const rated = P.filter(p => p.rating != null).sort((a,b) => (b.adj ?? 0) - (a.adj ?? 0) || (b.famous?1:0)-(a.famous?1:0));
 $('worth').innerHTML = rated.slice(0, 20).map((p, i) => `
   <div class="try-row">
     <div class="try-rank">${i+1}</div>
@@ -242,7 +242,7 @@ $('worth').innerHTML = rated.slice(0, 20).map((p, i) => `
       <span class="why">${esc(title(p.sub))}${p.buzz ? ' · ' + esc(p.buzz) : ''}</span>
     </div>
     <div class="try-bar">
-      <div class="track"><i style="width:${p.rating/5*100}%;background:${CCOLOR[p.cat]}" data-tip="<b>${esc(p.brand)} ${esc(p.product)}</b><br>★ ${p.rating.toFixed(1)} · ${esc(p.rating_source ?? '')}"></i></div>
+      <div class="track"><i style="width:${p.rating/5*100}%;background:${CCOLOR[p.cat]}" data-tip="<b>${esc(p.brand)} ${esc(p.product)}</b><br>★ ${p.rating.toFixed(1)} · ${esc(p.rating_source ?? '')}<br>weighted score ${p.adj?.toFixed(2)} from ${p.reviews_n} review${p.reviews_n>1?'s':''}"></i></div>
       <span class="num">${p.rating.toFixed(1)}</span>
     </div>
   </div>`).join('');
@@ -270,7 +270,7 @@ function render() {
     if (fm === 'untried' && e.status === 'tried') return false;
     return (!fc || CNAME[p.cat] === fc) && (!fs || title(p.sub) === fs) && (!fb || p.brand === fb);
   });
-  rows.sort((a,b) => (b.rating ?? -1) - (a.rating ?? -1) || a.brand.localeCompare(b.brand));
+  rows.sort((a,b) => (b.adj ?? -1) - (a.adj ?? -1) || a.brand.localeCompare(b.brand));
   $('tbody').innerHTML = rows.slice(0, shown).map(p => {
     const e = entry(p.id);
     const stars = [1,2,3,4,5].map(n =>

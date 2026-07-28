@@ -155,14 +155,9 @@
     <div class="card">
       <div id="brands"></div>
       <div class="legend" id="brand-legend"></div>
-      <p class="takeaway" id="tk-brands"></p>
     </div>
   </section>
 
-  <footer>
-    <p><b>Ratings</b> come from retailer reviews, Sporked scores, and editorial taste tests gathered in July 2026; the source is shown under each rating. Products with no published rating sort last.</p>
-    <p><b>Your list and stars</b> are saved in this browser only.</p>
-  </footer>
 </div>
 <div id="tip"></div>
 
@@ -236,8 +231,6 @@ $('brands').innerHTML = topBrands.map(([b, k]) => {
   </div>`;
 }).join('');
 $('brand-legend').innerHTML = CATS.map(c => `<span class="li"><i class="sw" style="background:${CCOLOR[c]}"></i> ${CNAME[c]}</span>`).join('');
-const multi = topBrands.filter(([,k]) => CATS.filter(c=>k[c]).length >= 2);
-$('tk-brands').innerHTML = `<b>${topBrands[0][0]}</b> puts the most products on the shelf (${topBrands[0][1].total}). ${multi.length} of the top ${topBrands.length} brands cross category lines; the rest stay in their lane.`;
 
 /* worth trying: top-rated across the aisle */
 const rated = P.filter(p => p.rating != null).sort((a,b) => b.rating - a.rating || (b.famous?1:0)-(a.famous?1:0));
